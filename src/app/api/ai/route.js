@@ -9,6 +9,9 @@ const cochabambaExamples = {
     "HOLA":{
         content:"",
     },
+    "TRAMITES":{
+        content:"",
+    },
     "QUIEN ERES":{
         content:"Soy AVONNI TU ASISTENTE, una asistente virtual basada en inteligencia artificial implementada por la Alcaldía de Cochabamba, Estoy aquí para ayudarte con preguntas, conversaciones o cualquier otra cosa con referencia a los tramites que se realizan en la alcaldía de Cochabamba o sus 7 sub alcaldías.",
     },
