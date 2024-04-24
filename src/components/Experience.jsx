@@ -2,8 +2,6 @@
 import { CameraControls, Environment, Gltf, OrbitControls,Html } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import { Teacher } from "./Teacher";
-import  Linda  from "./Linda";
-import Teacher1 from "./Teacher1";
 import Avatar3 from "./Avatar3";
 import { degToRad } from "three/src/math/MathUtils";
 import { TypingBox } from "./TypingBox";
