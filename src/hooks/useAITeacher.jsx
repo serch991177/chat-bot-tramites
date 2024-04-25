@@ -104,8 +104,8 @@ export const useAITeacher = create((set, get) => ({
           currentMessage: null,
         }));
         console.log("detener animacion"); // Se imprime después de que termine la reproducción del audio
-        const audio_otrapregunta = new Audio('/models/otrapregunta.mp3');
-        audio_otrapregunta.play();
+        //const audio_otrapregunta = new Audio('/models/otrapregunta.mp3');
+        //audio_otrapregunta.play();
       };
       set(() => ({
         loading: false,
