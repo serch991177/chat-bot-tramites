@@ -6,6 +6,9 @@ const openai = new OpenAI({
 
 const cochabambaExamples = {
     //Question about the bot
+    "QUIEN ES EL ALCALDE DE COCHABAMBA":{
+        content: "El Alcalde de Cochabamba es Manfred Reyes Villa",
+    },
     "HOLA":{
         content:"",
     },
