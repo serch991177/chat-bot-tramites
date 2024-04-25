@@ -212,7 +212,7 @@ const cochabambaExamples = {
         content: "El tramite llega a durar aproximadamente 90 dias calendario despues de cumplirse todos los requisitos y no encontrar observaciones.",
     },
     //Vehiculos
-    "CUALES SON LOS REQUISITOS DE LA INSCRIPCION DE VEHICULO AUTOMOTOR TERRESTRE CON FACTURA ":{ content:"Los requisitos son  Fotocopia de cedula de identidad vigente, foto 3 por 3 fondo rojo, declaracion unica de importacion, formulario de registro vehicular, certificado unico de datos tecnicos de automotor, poliza de importacion, factura comercial (original y fotocopia), y en caso de ser apoderado presentar el poder de representacion legal. ",
+    "CUALES SON LOS REQUISITOS DE LA INSCRIPCION DE VEHICULO AUTOMOTOR TERRESTRE CON FACTURA":{ content:"Los requisitos son  Fotocopia de cedula de identidad vigente, foto 3 por 3 fondo rojo, declaracion unica de importacion, formulario de registro vehicular, certificado unico de datos tecnicos de automotor, poliza de importacion, factura comercial (original y fotocopia), y en caso de ser apoderado presentar el poder de representacion legal. ",
     },
     "CUALES SON LOS REQUISITOS DE LA INSCRIPCION DE VEHICULO AUTOMOTOR TERRESTRE CON FACTURA Y TRANSFERENCIA ":{ content:"Los requisitos son  Fotocopia de cedula de identidad vigente, foto 3 por 3 fondo rojo, declaracion unica de importacion, formulario de registro vehicular, poliza de importacion, factura comercial (original y fotocopia), documento de compra y venta (original y fotocopia), fotocopia vigente del vendedor y en caso de ser apoderado presentar el poder de representacion legal. ",
     },
@@ -673,13 +673,45 @@ export async function GET(req) {
         }
     }
 
+    let combinedResponse;
+
     if (!matchedQuestion) {
-        return Response.json({ error: "La pregunta no es válida" });
-    }
+        try {
+            // Si no se encontró una pregunta coincidente, consulta a OpenAI ChatGPT
+            const chatCompletion = await openai.chat.completions.create({
+                messages: [
+                    {
+                        role: "system",
+                        content: "Eres un asistente virtual de trámites del Gobierno Municipal de Cochabamba (Alcaldía de Cochabamba). Tu cliente te está haciendo una pregunta sobre trámites realizados o que se realizan en la subalcaldía de Cochabamba. Debes responder con: \n- spanish: la versión en español de la pregunta, dividida en palabras ej: \n- content: Tu respuesta proporcionando información sobre procesos de trámites en sub alcaldías de Cochabamba."
+                    },
+                    {
+                        role: "system",
+                        content: "Siempre debes responder con un objeto JSON con el siguiente formato: \n{\n    \"spanish\": [\n        {\n            \"word\": \"\"\n        }\n    ],\n    \"content\": \"\"\n}"
+                    },
+                    {
+                        role: "user",
+                        content: question
+                    }
+                ],
+                model: "gpt-3.5-turbo",
+                response_format: {
+                    type: "json_object"
+                }
+            });
 
-    const cochabambaExample = cochabambaExamples[matchedQuestion];
+            const chatResponse = JSON.parse(chatCompletion.choices[0].message.content);
+            combinedResponse = {
+                spanish: [], // Aquí debes poner la versión en español de la pregunta
+                content: chatResponse.content
+            };
 
-    try {
+            console.log("Respuesta de la API de OpenAI:", chatCompletion);
+        } catch (error) {
+            return Response.json({ error: "Error al procesar la solicitud. Por favor, inténtalo de nuevo más tarde." });
+        }
+    } else {
+        try {
+        const cochabambaExample = cochabambaExamples[matchedQuestion];
         const chatCompletion = await openai.chat.completions.create({
             messages: [
                 {
@@ -714,14 +746,20 @@ export async function GET(req) {
         });
 
         const chatResponse = JSON.parse(chatCompletion.choices[0].message.content);
-        const combinedResponse = {
+        const chatResponseHOLA = {
             spanish: cochabambaExample.spanish,
             content: `${cochabambaExample.content} ${chatResponse.content}`,
         };
-        
-        console.log("Respuesta de la API de OpenAI:", chatCompletion);
-        return Response.json(combinedResponse);
-    } catch (error) {
-        return Response.json({ error: "Error al procesar la solicitud. Por favor, inténtalo de nuevo más tarde." });
+        /*const chatResponse = {
+            spanish: [], // Aquí debes poner la versión en español de la pregunta
+            content: `${cochabambaExample.content} ${chatResponse.content}`
+        };*/
+        console.log("respuesta encontrada")
+        combinedResponse = chatResponseHOLA;
+        } catch (error) {
+            return Response.json({ error: "Error al procesar la solicitud. Por favor, inténtalo de nuevo más tarde." });
+        }
     }
+
+    return Response.json(combinedResponse);
 }

@@ -17,7 +17,23 @@ export const Experience = () => {
     const [typingBoxVisible, setTypingBoxVisible] = useState(false);
     const [typingBoxManfredVisible,setTypingBoxVisibleManfred] = useState(true);
     const childRef = useRef();
+    //  const [expositoraVisible,setexpositoraVisible] = useState(false);
+    //const [manfredVisible,setmanfredVisible] = useState(true);
     
+    /*const hideexpositora = () => {
+        setexpositoraVisible(false);
+    };
+    const visibleexpositora = () => {
+        setexpositoraVisible(true);
+    };
+    
+    const hideManfred = () =>{
+        setmanfredVisible(false);
+    }
+    const visibleManfred = () => {
+        setmanfredVisible(true);
+    };*/
+   
     /* ver las funciones para mover la camara a futuro
     const controlsRef = useRef();
     const [cameraPosition, setCameraPosition] = useState([3, 0.5, 0.01]);
@@ -68,11 +84,12 @@ export const Experience = () => {
                 <TypingBox hideTypingBox={hideTypingBox} visibleTypingBox={visibleTypingBox} hideTypingBoxManfred={hideTypingBoxManfred}  visibleTypingBoxManfred={visibleTypingBoxManfred} changeAnimation={changeAnimation}/>                
             </div>
             )}
+
             <Canvas 
                 camera={{ 
                     position:[0,0,0.0001],
                     //position: [3, 0.5, 0.01], // Ajustar la posición de la cámara -2,-1.5,2
-                    //fov: 30, // Ajustar el campo de visión para enfocar a Teacher1
+                    fov: 40, // Ajustar el campo de visión para enfocar a Teacher1
                     //position: cameraPosition,
                 }}  
             >
@@ -95,6 +112,7 @@ export const Experience = () => {
                     changeAnimation={changeAnimation}
                 />*/}
                 {/*<Linda ref={childRef}  position={[-1,-1.5,-3]}  scale={1}  rotation-y={degToRad(20)}  currentAnimation="Waiting" speakingSpeed={250}/>*/}
+                
                 <Teacher1         
                     //x,y,z
                     position={[1,-1.5,-3]} 
@@ -103,12 +121,15 @@ export const Experience = () => {
                     animationIndex={animationIndex}
                     changeAnimation={changeAnimation}
                 />
+                
+                
                 <Avatar3
                     position={[-1,-1.5,-3]} 
                     scale={1} 
                     rotation-y={degToRad(20)}
                     animationIndex={animationIndex}
                     changeAnimation={changeAnimation}   
+                    
                 />
                 
                 <Gltf src="/models/Oficina.glb" position={[0.2,-1.7,-2]}/>
