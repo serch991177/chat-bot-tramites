@@ -153,8 +153,13 @@ export const MessagesList = ({visibleTypingBox,changeAnimation,visibleTypingBoxM
                 }}>Sí</p>
             </button>
             <button
-                className="bg-red-500 px-10 py-1 text-white rounded-lg"
-                onClick={handleNoClick}
+              className="bg-red-500 px-10 py-1 text-white rounded-lg"
+              /*onClick={handleNoClick}
+              onClick={() => stopMessage(message)}*/
+              onClick={() => {
+                handleNoClick();
+                stopMessage(message);
+              }}
             >
                 <p style={{
                     fontSize:"100px"
