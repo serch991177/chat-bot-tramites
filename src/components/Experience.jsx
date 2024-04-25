@@ -1,6 +1,6 @@
 "use client";
 import { CameraControls, Environment, Gltf, OrbitControls,Html } from "@react-three/drei";
-import { Canvas } from "@react-three/fiber";
+import { Canvas, useThree } from "@react-three/fiber";
 import { Teacher } from "./Teacher";
 import Avatar3 from "./Avatar3";
 import Teacher1 from "./Teacher1";
@@ -17,7 +17,22 @@ export const Experience = () => {
     const [typingBoxVisible, setTypingBoxVisible] = useState(false);
     const [typingBoxManfredVisible,setTypingBoxVisibleManfred] = useState(true);
     const childRef = useRef();
-
+    
+    /* ver las funciones para mover la camara a futuro
+    const controlsRef = useRef();
+    const [cameraPosition, setCameraPosition] = useState([3, 0.5, 0.01]);
+    useEffect(() => {
+        // Update the camera position in the effect to trigger re-render
+        console.log("Camera position updated:", cameraPosition);
+    }, [cameraPosition]);
+    const handleButtonClick = () => {
+        console.log("click");
+        // Actualizar la posición de la cámara al hacer clic en el botón
+        setCameraPosition([0, 0, 0],()=>{
+            console.log("Camera position updated and re-render triggered");
+        });
+    };
+    */   
     const hideTypingBox = () => {
         setTypingBoxVisible(false);
     };
@@ -30,7 +45,6 @@ export const Experience = () => {
     const visibleTypingBoxManfred = () =>{
         setTypingBoxVisibleManfred(true);
     }
-
     const changeAnimation = (ind) => {
         //console.log("vamos a cambiar la animacion");
         setAnimationIndex(ind);
@@ -38,13 +52,15 @@ export const Experience = () => {
     const changeFocus = (character) => {
         setFocusedCharacter(character);
     };
-
-
+    
+    
+    
     return (
         <>
+
             {typingBoxManfredVisible &&(
             <div className="z-10 md:justify-center fixed bottom-4 left-4 right-4 flex gap-3 flex-wrap justify-stretch">
-                <TypingBoxManfred hideTypingBox={hideTypingBox} visibleTypingBox={visibleTypingBox} hideTypingBoxManfred={hideTypingBoxManfred}  visibleTypingBoxManfred={visibleTypingBoxManfred} changeAnimation={changeAnimation}/>                
+                <TypingBoxManfred  hideTypingBox={hideTypingBox} visibleTypingBox={visibleTypingBox} hideTypingBoxManfred={hideTypingBoxManfred}  visibleTypingBoxManfred={visibleTypingBoxManfred} changeAnimation={changeAnimation}/>                
             </div>
             )}
             {typingBoxVisible && (
@@ -52,11 +68,12 @@ export const Experience = () => {
                 <TypingBox hideTypingBox={hideTypingBox} visibleTypingBox={visibleTypingBox} hideTypingBoxManfred={hideTypingBoxManfred}  visibleTypingBoxManfred={visibleTypingBoxManfred} changeAnimation={changeAnimation}/>                
             </div>
             )}
-            <Canvas
-                camera={{
-                    //position:[0,0,0.0001],
-                    position: [3, 0.5, 0.01], // Ajustar la posición de la cámara -2,-1.5,2
-                    fov: 30, // Ajustar el campo de visión para enfocar a Teacher1
+            <Canvas 
+                camera={{ 
+                    position:[0,0,0.0001],
+                    //position: [3, 0.5, 0.01], // Ajustar la posición de la cámara -2,-1.5,2
+                    //fov: 30, // Ajustar el campo de visión para enfocar a Teacher1
+                    //position: cameraPosition,
                 }}  
             >
                 <CameraManager/>
@@ -80,9 +97,9 @@ export const Experience = () => {
                 {/*<Linda ref={childRef}  position={[-1,-1.5,-3]}  scale={1}  rotation-y={degToRad(20)}  currentAnimation="Waiting" speakingSpeed={250}/>*/}
                 <Teacher1         
                     //x,y,z
-                    position={[-2,-1.5,0.5]} 
+                    position={[1,-1.5,-3]} 
                     scale={1} 
-                    rotation-y={degToRad(100)}
+                    rotation-y={degToRad(10)}
                     animationIndex={animationIndex}
                     changeAnimation={changeAnimation}
                 />
