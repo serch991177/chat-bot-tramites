@@ -15,7 +15,7 @@ export const Experience = () => {
     const [animationIndex,setAnimationIndex] = useState(0);
     //const [typingBoxVisible, setTypingBoxVisible] = useState(true);
     const [typingBoxVisible, setTypingBoxVisible] = useState(false);
-    const [typingBoxManfredVisible,setTypingBoxVisibleManfred] = useState(false);
+    const [typingBoxManfredVisible,setTypingBoxVisibleManfred] = useState(true);
     const childRef = useRef();
 
     const hideTypingBox = () => {
@@ -24,6 +24,13 @@ export const Experience = () => {
     const visibleTypingBox = () => {
         setTypingBoxVisible(true);
     };
+    const hideTypingBoxManfred = () =>{
+        setTypingBoxVisibleManfred(false);
+    }
+    const visibleTypingBoxManfred = () =>{
+        setTypingBoxVisibleManfred(true);
+    }
+
     const changeAnimation = (ind) => {
         //console.log("vamos a cambiar la animacion");
         setAnimationIndex(ind);
@@ -31,27 +38,18 @@ export const Experience = () => {
     const changeFocus = (character) => {
         setFocusedCharacter(character);
     };
-    /*useEffect(() => {
-        // Reproducir el audio cada 5 segundos
-        const audioInterval = setInterval(() => {
-          const audio_entrada = new Audio("/models/entrada.wav");
-          audio_entrada.play();
-    }, 10000);
-        // Limpiar el intervalo cuando el componente se desmonte o actualice
-       // return () => clearInterval(audioInterval);
-    }, []); // El segundo argumento [] indica que este efecto se ejecuta solo una vez, al montar el componente*/
 
 
     return (
         <>
-            
+            {typingBoxManfredVisible &&(
             <div className="z-10 md:justify-center fixed bottom-4 left-4 right-4 flex gap-3 flex-wrap justify-stretch">
-                <TypingBoxManfred hideTypingBox={hideTypingBox} visibleTypingBox={visibleTypingBox} changeAnimation={changeAnimation}/>                
+                <TypingBoxManfred hideTypingBox={hideTypingBox} visibleTypingBox={visibleTypingBox} hideTypingBoxManfred={hideTypingBoxManfred}  visibleTypingBoxManfred={visibleTypingBoxManfred} changeAnimation={changeAnimation}/>                
             </div>
-            
+            )}
             {typingBoxVisible && (
             <div className="z-10 md:justify-center fixed bottom-4 left-4 right-4 flex gap-3 flex-wrap justify-stretch">
-                <TypingBox hideTypingBox={hideTypingBox} visibleTypingBox={visibleTypingBox} changeAnimation={changeAnimation}/>                
+                <TypingBox hideTypingBox={hideTypingBox} visibleTypingBox={visibleTypingBox} hideTypingBoxManfred={hideTypingBoxManfred}  visibleTypingBoxManfred={visibleTypingBoxManfred} changeAnimation={changeAnimation}/>                
             </div>
             )}
             <Canvas
@@ -69,7 +67,7 @@ export const Experience = () => {
                     <MessagesList/>
                 </Html>*/}
                 <Html position={[0.22,-0.20,-4]} transform distanceFactor={0.5}>
-                    <MessagesList visibleTypingBox={visibleTypingBox} changeAnimation={changeAnimation}/>
+                    <MessagesList hideTypingBox={hideTypingBox} visibleTypingBox={visibleTypingBox} hideTypingBoxManfred={hideTypingBoxManfred}  visibleTypingBoxManfred={visibleTypingBoxManfred} changeAnimation={changeAnimation}/>
                 </Html>
                 {/*<Teacher 
                     teacher={"Claudia"} 

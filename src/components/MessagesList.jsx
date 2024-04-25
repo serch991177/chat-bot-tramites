@@ -1,7 +1,7 @@
 import { useAITeacher } from "@/hooks/useAITeacher";
 import { useEffect, useRef, useState } from "react";
 
-export const MessagesList = ({visibleTypingBox,changeAnimation}) => {
+export const MessagesList = ({visibleTypingBox,changeAnimation,visibleTypingBoxManfred,hideTypingBox}) => {
   const messages = useAITeacher((state) => state.messages);
   const playMessage = useAITeacher((state) => state.playMessage);
   const stopMessage = useAITeacher((state) => state.stopMessage);
@@ -52,7 +52,9 @@ export const MessagesList = ({visibleTypingBox,changeAnimation}) => {
         setTimeout(() => {
             changeAnimation(2);
             //console.log("cambiar animacion");
-            visibleTypingBox();
+            //visibleTypingBox();
+            visibleTypingBoxManfred();
+            hideTypingBox();
         }, audio.duration * 1000); // Convertir la duración a milisegundos
     });
   };
