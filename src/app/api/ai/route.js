@@ -720,5 +720,6 @@ export async function GET(req) {
         return Response.json(combinedResponse);
     } catch (error) {
         return Response.json({ error: "Error al procesar la solicitud. Por favor, inténtalo de nuevo más tarde." });
+        //hola
     }
 }
