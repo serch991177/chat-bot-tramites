@@ -3,14 +3,19 @@ import { CameraControls, Environment, Gltf, OrbitControls,Html } from "@react-th
 import { Canvas } from "@react-three/fiber";
 import { Teacher } from "./Teacher";
 import Avatar3 from "./Avatar3";
+import Teacher1 from "./Teacher1";
 import { degToRad } from "three/src/math/MathUtils";
 import { TypingBox } from "./TypingBox";
+import { TypingBoxManfred } from "./TypingBoxManfred";
 import { MessagesList } from "./MessagesList";
 import React, { useState,useRef,useEffect  } from "react";
 
 export const Experience = () => {
+    const [focusedCharacter, setFocusedCharacter] = useState("Teacher1");
     const [animationIndex,setAnimationIndex] = useState(0);
-    const [typingBoxVisible, setTypingBoxVisible] = useState(true);
+    //const [typingBoxVisible, setTypingBoxVisible] = useState(true);
+    const [typingBoxVisible, setTypingBoxVisible] = useState(false);
+    const [typingBoxManfredVisible,setTypingBoxVisibleManfred] = useState(false);
     const childRef = useRef();
 
     const hideTypingBox = () => {
@@ -23,7 +28,9 @@ export const Experience = () => {
         //console.log("vamos a cambiar la animacion");
         setAnimationIndex(ind);
     };
-
+    const changeFocus = (character) => {
+        setFocusedCharacter(character);
+    };
     /*useEffect(() => {
         // Reproducir el audio cada 5 segundos
         const audioInterval = setInterval(() => {
@@ -37,6 +44,11 @@ export const Experience = () => {
 
     return (
         <>
+            
+            <div className="z-10 md:justify-center fixed bottom-4 left-4 right-4 flex gap-3 flex-wrap justify-stretch">
+                <TypingBoxManfred hideTypingBox={hideTypingBox} visibleTypingBox={visibleTypingBox} changeAnimation={changeAnimation}/>                
+            </div>
+            
             {typingBoxVisible && (
             <div className="z-10 md:justify-center fixed bottom-4 left-4 right-4 flex gap-3 flex-wrap justify-stretch">
                 <TypingBox hideTypingBox={hideTypingBox} visibleTypingBox={visibleTypingBox} changeAnimation={changeAnimation}/>                
@@ -44,7 +56,9 @@ export const Experience = () => {
             )}
             <Canvas
                 camera={{
-                    position:[0,0,0.0001],
+                    //position:[0,0,0.0001],
+                    position: [3, 0.5, 0.01], // Ajustar la posición de la cámara -2,-1.5,2
+                    fov: 30, // Ajustar el campo de visión para enfocar a Teacher1
                 }}  
             >
                 <CameraManager/>
@@ -66,20 +80,22 @@ export const Experience = () => {
                     changeAnimation={changeAnimation}
                 />*/}
                 {/*<Linda ref={childRef}  position={[-1,-1.5,-3]}  scale={1}  rotation-y={degToRad(20)}  currentAnimation="Waiting" speakingSpeed={250}/>*/}
-                {/*<Teacher1         
-                    position={[-1,-1.5,-3]} 
+                <Teacher1         
+                    //x,y,z
+                    position={[-2,-1.5,0.5]} 
                     scale={1} 
-                    rotation-y={degToRad(20)}
+                    rotation-y={degToRad(100)}
                     animationIndex={animationIndex}
                     changeAnimation={changeAnimation}
-                />*/}
+                />
                 <Avatar3
                     position={[-1,-1.5,-3]} 
                     scale={1} 
                     rotation-y={degToRad(20)}
                     animationIndex={animationIndex}
-                    changeAnimation={changeAnimation}
+                    changeAnimation={changeAnimation}   
                 />
+                
                 <Gltf src="/models/Oficina.glb" position={[0.2,-1.7,-2]}/>
             </Canvas>
         </>
