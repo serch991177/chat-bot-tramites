@@ -42,7 +42,7 @@ export const MessagesList = ({visibleTypingBox,changeAnimation}) => {
     setShowQuestionButtons(false);
     // Limpiar el contenido y establecer messages.length en 0
     useAITeacher.setState({ messages: [] });
-    changeAnimation(0);
+    changeAnimation(1);
     // Reproducir el audio después de cambiar a la animación 2
     const audio = new Audio('/models/despedida.wav');
     audio.addEventListener('loadedmetadata', () => {
@@ -50,7 +50,7 @@ export const MessagesList = ({visibleTypingBox,changeAnimation}) => {
         audio.play();
         //Establecer un temporizador para cambiar la animación después de la duración del audio
         setTimeout(() => {
-            changeAnimation(2);
+            changeAnimation(4);
             //console.log("cambiar animacion");
             visibleTypingBox();
         }, audio.duration * 1000); // Convertir la duración a milisegundos
