@@ -1362,6 +1362,7 @@ function isSimilar(question1, question2, threshold) {
 }
 
 export async function GET(req) {
+    
     const question = req.nextUrl.searchParams.get("question");
 
     let matchedQuestion = null;
@@ -1384,14 +1385,99 @@ export async function GET(req) {
             }
         }
     }
-
-    if (!matchedQuestion) {
-        return Response.json({ error: "La pregunta no es válida" });
-    }
-
+    
+    
     const cochabambaExample = cochabambaExamples[matchedQuestion];
 
-    try {
+    if (question.includes("ALCALDE")) {
+        console.log("funciona");
+        try {
+            const chatCompletion = await openai.chat.completions.create({
+                messages: [
+                    {
+                        role: "system",
+                        content: `Eres un asistente virtual de trámites del Gobierno Municipal de Cochabamba (Alcaldía de Cochabamba). Tu cliente te está haciendo una pregunta sobre trámites realizados o que se realizan en la subalcaldía de Cochabamba. Debes responder con: 
+                        - spanish: la versión en español de la pregunta, dividida en palabras ej: ${JSON.stringify(
+                            cochabambaExample.spanish
+                        )}
+                        - content: Tu respuesta proporcionando información sobre procesos de trámites en sub alcaldías de Cochabamba.`,
+                    },
+                    {
+                        role: "system",
+                        content: `Siempre debes responder con un objeto JSON con el siguiente formato: 
+                        {
+                            "spanish": [
+                                {
+                                    "word": ""
+                                }
+                            ],
+                            "content": ""
+                        }`,
+                    },
+                    {
+                        role: "user",
+                        content: question,
+                    },
+                ],
+                model: "gpt-3.5-turbo",
+                response_format: {
+                    type: "json_object",
+                },
+            });
+    
+            const chatResponse = JSON.parse(chatCompletion.choices[0].message.content);
+            const alcalde = "EL ALCALDE DE COCHABAMBA ES Manfred Reyes Villa"
+            const combinedResponse = {
+                spanish: cochabambaExample.spanish,
+                content: `${alcalde}`,
+            };
+            
+            console.log("Respuesta de la API de OpenAI:", chatCompletion);
+            return Response.json(combinedResponse);
+        } catch (error) {
+            return Response.json({ error: "Error al procesar la solicitud. Por favor, inténtalo de nuevo más tarde." });
+        }
+    }
+    //const cochabambaExample = cochabambaExamples[matchedQuestion];
+    let combinedResponse;
+
+    if (!matchedQuestion) {
+        try {
+            // Si no se encontró una pregunta coincidente, consulta a OpenAI ChatGPT
+            const chatCompletion = await openai.chat.completions.create({
+                messages: [
+                    {
+                        role: "system",
+                        content: "Eres un asistente virtual de trámites del Gobierno Municipal de Cochabamba (Alcaldía de Cochabamba). Tu cliente te está haciendo una pregunta sobre trámites realizados o que se realizan en la subalcaldía de Cochabamba. Debes responder con: \n- spanish: la versión en español de la pregunta, dividida en palabras ej: \n- content: Tu respuesta proporcionando información sobre procesos de trámites en sub alcaldías de Cochabamba."
+                    },
+                    {
+                        role: "system",
+                        content: "Siempre debes responder con un objeto JSON con el siguiente formato: \n{\n    \"spanish\": [\n        {\n            \"word\": \"\"\n        }\n    ],\n    \"content\": \"\"\n}"
+                    },
+                    {
+                        role: "user",
+                        content: question
+                    }
+                ],
+                model: "gpt-3.5-turbo",
+                response_format: {
+                    type: "json_object"
+                }
+            });
+
+            const chatResponse = JSON.parse(chatCompletion.choices[0].message.content);
+            combinedResponse = {
+                spanish: [], // Aquí debes poner la versión en español de la pregunta
+                content: chatResponse.content
+            };
+
+            console.log("Respuesta de la API de OpenAI:", chatCompletion);
+        } catch (error) {
+            return Response.json({ error: "Error al procesar la solicitud. Por favor, inténtalo de nuevo más tarde." });
+        }
+    } else {
+        try {
+        const cochabambaExample = cochabambaExamples[matchedQuestion];
         const chatCompletion = await openai.chat.completions.create({
             messages: [
                 {
@@ -1426,14 +1512,21 @@ export async function GET(req) {
         });
 
         const chatResponse = JSON.parse(chatCompletion.choices[0].message.content);
-        const combinedResponse = {
+        const chatResponseHOLA = {
             spanish: cochabambaExample.spanish,
             content: `${cochabambaExample.content}`,
         };
-        
-        console.log("Respuesta de la API de OpenAI:", chatCompletion);
-        return Response.json(combinedResponse);
-    } catch (error) {
-        return Response.json({ error: "Error al procesar la solicitud. Por favor, inténtalo de nuevo más tarde." });
+        /*const chatResponse = {
+            spanish: [], // Aquí debes poner la versión en español de la pregunta
+            content: `${cochabambaExample.content} ${chatResponse.content}`
+        };*/
+        console.log("respuesta encontrada")
+        combinedResponse = chatResponseHOLA;
+        } catch (error) {
+            return Response.json({ error: "Error al procesar la solicitud. Por favor, inténtalo de nuevo más tarde." });
+        }
     }
+
+    return Response.json(combinedResponse);
+    
 }

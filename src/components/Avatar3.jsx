@@ -138,7 +138,7 @@ const Avatar3 = ({animationIndex,changeAnimation, ...props}) =>{
       return () => clearInterval(timer);
     },[animationIndex]);
     
-    console.log(names);
+    //console.log(names);
 
 
     return  (
