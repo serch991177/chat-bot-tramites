@@ -44,6 +44,7 @@ export const Experience = () => {
             )}
             <Canvas
                 camera={{
+                    //position:[4,1,1.2],
                     position:[0,0,0.0001],
                 }}  
             >
@@ -74,13 +75,16 @@ export const Experience = () => {
                     changeAnimation={changeAnimation}
                 />*/}
                 <Avatar3
-                    position={[-1,-1.5,-3]} 
+                    //
+                    //position={[0,-1.5,-3]} 
+                    position={[-1,-1.5,-3]}
                     scale={1} 
                     rotation-y={degToRad(20)}
                     animationIndex={animationIndex}
                     changeAnimation={changeAnimation}
                 />
                 <Gltf src="/models/Oficina.glb" position={[0.2,-1.7,-2]}/>
+                {/**<Gltf src="/models/studiofinal.glb" position={[1.2,-5.7,-2]}/>*/}
             </Canvas>
         </>
     );
