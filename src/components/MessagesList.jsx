@@ -152,7 +152,10 @@ export const MessagesList = ({visibleTypingBox,changeAnimation}) => {
             </button>
             <button
                 className="bg-red-500 px-10 py-1 text-white rounded-lg"
-                onClick={handleNoClick}
+                onClick={() => {
+                  handleNoClick();
+                  stopMessage(message);
+                }}  
             >
                 <p style={{
                     fontSize:"100px"

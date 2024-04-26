@@ -751,7 +751,7 @@ export async function GET(req) {
         const chatResponse = JSON.parse(chatCompletion.choices[0].message.content);
         const chatResponseHOLA = {
             spanish: cochabambaExample.spanish,
-            content: `${cochabambaExample.content} ${chatResponse.content}`,
+            content: `${cochabambaExample.content}`,
         };
         /*const chatResponse = {
             spanish: [], // Aquí debes poner la versión en español de la pregunta
