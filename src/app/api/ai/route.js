@@ -10,7 +10,7 @@ const cochabambaExamples = {
         content: "El Alcalde de Cochabamba es Manfred Reyes Villa",
     },
     "HOLA":{
-        content:"",
+        content:"Hola soy AVONNI TU ASISTENTE, una asistente virtual basada en inteligencia artificial implementada por la Alcaldía de Cochabamba",
     },
     "TRAMITES":{
         content:"",

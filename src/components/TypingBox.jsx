@@ -36,8 +36,8 @@ export const TypingBox = ({hideTypingBox,changeAnimation }) => {
     setIsLoading(true);
     askAI(question);
     setQuestion("");
-    const audio_pensar = new Audio('/models/pensar.wav');
-    audio_pensar.play();
+    //const audio_pensar = new Audio('/models/pensar.wav');
+    //audio_pensar.play();
     //changeAnimation(1);
     //hideTypingBox(); // Llamar a la función para ocultar el TypingBox
   };
