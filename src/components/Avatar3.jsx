@@ -51,7 +51,7 @@ const Avatar3 = ({animationIndex,changeAnimation, ...props}) =>{
     });
 
     useFrame(() => {        
-        if(animationIndex === 3){
+        if(animationIndex === 3 || animationIndex === 1){
             let aux = count;
             if(increment){
                 if(count<1){
