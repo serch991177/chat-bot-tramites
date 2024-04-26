@@ -1387,10 +1387,9 @@ export async function GET(req) {
     }
     
     
-    const cochabambaExample = cochabambaExamples[matchedQuestion];
 
     if (question.includes("ALCALDE")) {
-        console.log("funciona");
+        const cochabambaExample = cochabambaExamples[matchedQuestion];
         try {
             const chatCompletion = await openai.chat.completions.create({
                 messages: [
