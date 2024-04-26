@@ -95,13 +95,13 @@ export const TypingBox = ({hideTypingBox,changeAnimation }) => {
           className="text-white font-bold text-xl"
           style={{ color: "#fff", fontSize: "1.25rem", fontWeight: "bold" }}
         >
-          Algo nuevo que decir?
+          Tienes alguna pregunta o consulta?
         </h2>
         <p
           className="text-white/65"
           style={{ color: "rgba(255, 255, 255, 0.4)", fontSize: "0.875rem" }}
         >
-          Escribe algo que quieras saber sobre Cochabamba
+          Escribe o usa la voz para saber sobre los tramites de Cochabamba
         </p>
       </div>
 

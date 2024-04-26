@@ -68,9 +68,9 @@ export const MessagesList = ({visibleTypingBox,changeAnimation}) => {
       {messages.length === 0 && (
         <div className="h-full w-full grid place-content-center text-center">
           <h2 className="text-8xl font-bold text-white/90 italic">
-            Chat Bot
+            AVONNI
             <br/>
-            Bienvenidos Al Staff de la Alcaldia
+           TU ASISTENTE VIRTUAL
           </h2>
         </div>
       )}
