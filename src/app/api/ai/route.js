@@ -591,6 +591,697 @@ const cochabambaExamples = {
     "REQUISITOS PARA LA VISACION MINUTAS": {
     content: "Los requisitos son los siguientes:1.    DERECHO DE ADMISION (DA -99), la persona natural o juridica debe cancelar el derecho de Admision de tramite al numero cuenta:  DA-99 por 20 bolivianos en la Entidad Financiera Autorizada o Caja Recaudadora del Gobierno Autonomo Municipal de Cochabamba.2.    DECLARACION JURADA IMPRESA, EI formulario de Visacion de Minutas debera estar firmado por el comprador o vendedor o apoderado, debiendo verificar la firma con la cedula de identidad.3.    ORIGINAL DEL REGISTRO CATASTRAL O CERTIFICACION CATASTRAL, en caso de ser primera transferencia no corresponde. (ultimo asiento a nombre del titular).4.    ORIGINAL DEL FOLIO REAL O INFORMACION RAPIDA ACTUALIZADO (emitido en la presente gestion a del titular).5.    Cuando el vendedor es persona juridica: Fotocopia del NIT, Poder del representante Legal y Cedula de identidad.6.    FOTOCOPIA DE LA CEDULA DE IDENTIDAD de las partes intervinientes VENDEDORES y COMPRADORES.7.    PLANO APROBADO DE LOTE, CONSTRUCCION O UNIDAD DE PROPIEDAD HORIZONTAL LEGALIZADO, segun el objeto de La transferencia.8.    MINUTA DE TRANSFERENCIA DEL BIEN INMUEBLE (con firma de las partes y el abogado).9.    ORIGINAL DEL TITULO DE PROPIEDAD.10. ORIGINAL DEL PODER DE REPRESENTACION LEGAL (otorgado por el comprador o vendedor).RECOMENDACIONES:Para la admision del tramite de visacion, el contribuyente debe cancelar el derecho de admision (DA 99), llenar la declaracion jurada en el sistema de visaciones y realizar la aprobacion de la declaracion.El inmueble no debera consignar mora tributaria a la fecha de su registro.Para los casos de venta judicial adjuntar. SENTENCIA, ACTA DE REMATE Y AUTO DE ADJUDICACION.Una vez revisada toda la documentacion original, se debera presentar adjunta una copia simple en el mismo orden.",
     },
+    "CUALES SON LOS REQUISITOS DE LA INSCRIPCION DE VEHICULO AUTOMOTOR TERRESTRE CON FACTURA ":{ content:"Los requisitos son  Fotocopia de cedula de identidad vigente, foto 3 por 3 fondo rojo, declaracion unica de importacion, formulario de registro vehicular, certificado unico de datos tecnicos de automotor, poliza de importacion, factura comercial (original y fotocopia), y en caso de ser apoderado presentar el poder de representacion legal. ",
+    },
+    "CUALES SON LOS REQUISITOS DE LA INSCRIPCION DE VEHICULO AUTOMOTOR TERRESTRE CON FACTURA Y TRANSFERENCIA ":{ content:"Los requisitos son  Fotocopia de cedula de identidad vigente, foto 3 por 3 fondo rojo, declaracion unica de importacion, formulario de registro vehicular, poliza de importacion, factura comercial (original y fotocopia), documento de compra y venta (original y fotocopia), fotocopia vigente del vendedor y en caso de ser apoderado presentar el poder de representacion legal. ",
+    },
+    "CUALES SON LOS REQUISITOS DE LA INSCRIPCION IMPORTACION DIRECTA DEL VEHICULO AUTOMOTOR TERRESTRE":{ content:"Los requisitos son  Fotocopia de cedula de identidad vigente a color, foto 3 por 3 fondo rojo, declaracion unica de importacion, formulario de registro vehicular, poliza de importacion, y en caso de ser apoderado presentar el poder de representacion legal. ",
+    },
+    "CUALES SON LOS REQUISITOS DE LA INSCRIPCION IMPORTACION DIRECTA DEL VEHICULO AUTOMOTOR TERRESTRE CON TRANSFERENCIA":{ content:"Los requisitos son  Fotocopia de cedula de identidad vigente a color, foto 3 por 3 fondo rojo, declaracion unica de importacion, formulario de registro vehicular, poliza de importacion, Documento compra y venta (original y fotocopia), Fotocopia de documento de identidad del vendedor y en caso de ser apoderado presentar el poder de representacion legal. ",
+    },
+    "CUALES SON LOS REQUISITOS DE LA TRANSFERENCIA DEL VEHICULO AUTOMOTOR TERRESTRE":{ content:"Los requisitos son  Fotocopia de cedula de identidad vigente a color, foto 3 por 3 fondo rojo, Documento de compra y venta (Original y fotocopia), registro a la propiedad del vehiculo automotor terrestre (original y fotocopia) y en caso de ser apoderado presentar el poder de representacion legal. ",
+    },
+    "CUALES SON LOS REQUISITOS DE LA TRANSFERENCIA DEL VEHICULO AUTOMOTOR TERRESTRE CON CAMBIO DE RADICATORIA":{ content:"Los requisitos son  Fotocopia de cedula de identidad vigente a color, foto 3 por 3 fondo rojo, Documento de compra y venta (Original y fotocopia), registro a la propiedad del vehiculo automotor terrestre (original y fotocopia) y en caso de ser apoderado presentar el poder de representacion legal. ",
+    },
+    "CUALES SON LOS REQUISITOS DEL CAMBIO DE RADICATORIA DEL VEHICULO AUTOMOTOR TERRESTRE.":{ content:"Los requisitos son  Fotocopia de cedula de identidad vigente a color, foto 3 por 3 fondo rojo, registro a la propiedad del vehiculo automotor terrestre (original y fotocopia) y en caso de ser apoderado presentar el poder de representacion legal. ",
+    },
+    "CUALES SON LOS REQUISITOS PARA EL CAMBIO DE SERVICIO DEL VEHICULO AUTOMOTOR TERRESTRE CASO 1  PARTICULAR A PUBLICO.":{ content:"Los requisitos son  Fotocopia de cedula de identidad vigente a color, foto 3 por 3 fondo rojo, registro a la propiedad del vehiculo automotor terrestre (original y fotocopia), Certificado de transporte del servicio publico, fotocopia de licencia o equivalente, y en caso de ser apoderado presentar el poder de representacion legal. ",
+    },
+    "CUALES SON LOS REQUISITOS PARA EL CAMBIO DE RADICATORIA DEL VEHICULO AUTOMOTOR TERRESTRE POSEEDOR.":{ content:"Los requisitos son  DECLARACION JURADA VIRTUAL – Cambio de Radicatoria registro a la propiedad del vehiculo automotor terrestre (original y fotocopia),fotocopia de cedula de identidad del poseedor, fotocopia del documento que acredite su condicion de poseedor de buena fe (opcional). ",
+    },
+    "CUALES SON LOS REQUISITOS PARA EL CAMBIO DE SERVICIO DEL VEHICULO AUTOMOTOR TERRESTRE CASO 1  PARTICULAR A PUBLICO.":{ content:"Los requisitos son  Fotocopia de cedula de identidad vigente a color, foto 3 por 3 fondo rojo, registro a la propiedad del vehiculo automotor terrestre (original y fotocopia), informe tecnico emitido por la policia boliviana, informe de datos tecnicos emitido por el Gobierno Autonomo Municipal de Cochabamba, y en caso de ser apoderado presentar el poder de representacion legal. ",
+    },
+    "CUALES SON LOS REQUISITOS PARA DUPLICADOS CASO 1: EXTRAVIO DEL CERTIFICADO DE PROPIEDAD DE VEHICULO AUTOMOTOR TERRESTRE (Certificado de Registro de Propiedad del Vehiculo Automotor).":{ content:"Los requisitos son  Fotocopia de cedula de identidad vigente a color, foto 3 por 3 fondo rojo, Original (Para Verificacion) y Fotocopia de la Factura de Publicacion en un medio de prensa escrita de circulacion nacional, comunicando el extravio del Certificado de Registro de Propiedad del Vehiculo Automotor por tres (3) dias continuos, y en caso de ser apoderado presentar el poder de representacion legal. ",
+    },
+    "CUALES SON LOS REQUISITOS PARA DUPLICADOS CASO 2: ROBO DEL CERTIFICADO DE PROPIEDAD DE VEHICULO AUTOMOTOR TERRESTRE (Certificado de Registro de Propiedad del Vehiculo Automotor).":{ content:"Los requisitos son  Fotocopia de cedula de identidad vigente a color, foto 3 por 3 fondo rojo, Original y Fotocopia de la Certificacion de Denuncia por Robo/Hurto del Certificado de Registro de Propiedad del Vehiculo Automotor (Policia Boliviana - FELCC), Original (Para Verificacion) y Fotocopia de la Factura de Publicacion en un medio de prensa escrita de circulacion nacional, comunicando el extravio del Certificado de Registro de Propiedad del Vehiculo Automotor por tres (3) dias continuos, y en caso de ser apoderado presentar el poder de representacion legal. ",
+    },
+    "CUALES SON LOS REQUISITOS PARA DUPLICADOS CASO 3: DETERIORO DEL CERTIFICADO DE PROPIEDAD DE VEHICULO AUTOMOTOR TERRESTRE (Certificado de Registro de Propiedad del Vehiculo Automotor).":{ content:"Los requisitos son  Fotocopia de cedula de identidad vigente a color, foto 3 por 3 fondo rojo, original del certificado de registro a la propiedad del vehiculo automotor terrestre deteriorado y en caso de ser apoderado presentar el poder de representacion legal. ",
+    },
+    "CUALES SON LOS REQUISITOS PARA DUPLICADOS CASO 4: DETERIORO DE PLACAS METALICAS / PLAQUETAS.":{ content:"Los requisitos son Original y fotocopia del certificado de registro a la propiedad del vehiculo automotor terrestre, devolucion al Gobierno Autonomo Municipal de Cochabamba de las placas metalicas deterioradas, certificado emitido por la unidad correspondiente de la policia boliviana y en caso de ser apoderado presentar el poder de representacion legal.",
+    },
+    "CUALES SON LOS REQUISITOS PARA DUPLICADOS CASO 4: DETERIORO DE PLACAS METALICAS / PLAQUETAS.":{ content:"Los requisitos son Original y fotocopia del certificado de registro a la propiedad del vehiculo automotor terrestre, devolucion al Gobierno Autonomo Municipal de Cochabamba de las placas metalicas deterioradas, certificado emitido por la unidad correspondiente de la policia boliviana y en caso de ser apoderado presentar el poder de representacion legal.",
+    },
+    "CUALES SON LOS REQUISITOS PARA LA REGULARIZACION DE PROPIEDAD DE VEHICULO AUTOMOTOR TERRESTRE.":{ content:"Los requisitos son Fotocopia de cedula de identidad vigente a color, foto 3 por 3 fondo rojo, Derecho de admision 102 (DA  102) – transferencia especial, Original y fotocopia del certificado de registro a la propiedad del vehiculo automotor terrestre, testimonio que acredite el motivo de transferencia, Fotocopia de la factura, y en caso de ser apoderado presentar el poder de representacion legal.",
+    },
+    "CUALES SON LOS REQUISITOS PARA EL REEMPLAQUE VEHICULO AUTOMOTOR.":{ content:"Los requisitos son Los requisitos son Fotocopia de cedula de identidad vigente a color, foto 3 por 3 fondo rojo, Original y Fotocopia de la Comunicacion al Poseedor (COPO) Documento a Recabarse en Aduana Nacional o Poliza Titularizada del Automotor (PTA), de no Contar Con El Original Presentar La Certificacion de la Denuncia Registrada en la FELCC, Original y Fotocopia del Carnet de Propiedad (Anterior), de no contar con el documento original debera presentar la Certificacion de la Denuncia Registrada en la FELCC, Declaracion Jurada de No Emplacado (a Obtener en Recaudaciones), Original y Fotocopia de Informe De Datos Tecnicos – Relevamiento de las Caracteristicas del Vehiculo emitido por la Seccion correspondiente del Gobierno Autonomo Municipal de Cochabamba (formulario RUA 08), de Corresponder. y en caso de ser apoderado presentar el poder de representacion legal.",
+    },
+    "CUALES SON LOS REQUISITOS PARA BAJA TRIBUTARIA POR ROBO.":{ content:"Los requisitos son, Original de la certificacion de denuncia de robo emitida por la policia boliviana, original del certificado de propiedad de vehiculo automotor original y copia de cedula de identidad del titular, impuestos al dia, derecho de admision 101 (DA  101), folder municipal, timbre para la emision de la certificacion y en caso de ser apoderado presentar el poder de representacion legal.",
+    },
+    "CUALES SON LOS REQUISITOS PARA BAJA TRIBUTARIA POR FIN DE VIDA UTIL.":{ content:"Los requisitos son, Original y Copia Legalizada del Documento que Evidencie la condicion de Obsoleto o Fin de Vida Util Emitido por el Gobierno Autonomo Municipal de Cochabamba Devolucion del Certificado de Propiedad del Vehiculo Automotor Terrestre (Certificado de Registro de Propiedad del Vehiculo Automotor), Devolucion de Placas y Plaquetas, No debe ser Otra Radicatoria, Tampoco debe registrar gravamenes y los impuestos al Dia para proceder a la Baja, Original y Copia de la Cedula de Identidad del Sujeto Pasivo, Derecho de Admision 101 (DA  101)– Baja de Vehiculo – a ser Depositado en la cuenta Por 37 Bolivianos. En Caso de ser Apoderado Ademas debe adjuntar lo siguiente Original (Para Verificacion) y Fotocopia de Poder de representacion Legal, Fotocopia de Documento de Identidad del Apoderado.",
+    },
+    "QUE  DISTRITOS, SUBDISTRITOS Y ZONAS PERTENECEN A LA SUB ALCALDIA TUNARI  DE COCHABAMBA":{ content:"Distrito 1 conformado por sub distrito 25  Zona Aranjuez Alto,  Sub Distrito 26  Zona Mesadilla.Distrito 2 conformado por sub distrito 22  Zona Condebamba, Sub Distrito 23  Zona Temporal Pampa, Sub Distrito 24  Zona Queru Queru Alto, Sub Distrito 1  Zona Mayorazgo.Distrito 13 Parque Nacional Tunari.",
+    },
+    "QUE  DISTRITOS, SUBDISTRITOS Y ZONAS PERTENECEN A LA SUB ALCALDIA MOLLE  DE COCHABAMBA ":{ content:"Distrito 3 conformado por sub distrito 21  Zona Sarcobamba, Sub Distrito 37  Zona Chiquicollo.distrito 4 conformado por sub distrito Distrito 10  Zona Chimba, Sub Distrito 27  Zona Villa Bush, Sub Distrito 28  Zona Cona Cona.",
+    },
+    "QUE  DISTRITOS, SUBDISTRITOS Y ZONAS PERTENECEN A LA SUB ALCALDIA ALEJO CALATAYUD  DE COCHABAMBA":{ content:"Distrito 5 conformado por sub distrito 14  Zona La Maica, Sub Distrito 15  Zona Jaihuayco, Sub Distrito 17  Zona Lacma, Sub Distrito 18  Zona Ticti, Sub Distrito 20  Zona Alalay Valle Hermoso.Distrito 8 conformado por sub distrito  Zona Uspha Uspha.",
+    },
+
+    "QUE  DISTRITOS, SUBDISTRITOS Y ZONAS PERTENECEN A LA SUB ALCALDIA VALLE HERMOSO  DE COCHABAMBA":{ content:"Distrito 6 conformado por sub distrito 16  Zona Alalay Norte.Distrito 7 conformado por sub distrito 19  Zona Alalay Sud.Distrito 14 conformado por sub distrito 20  Zona Valle Hermoso.",
+    },
+
+    "QUE  DISTRITOS, SUBDISTRITOS Y ZONAS PERTENECEN A LA SUB ALCALDIA ITOCTA  DE COCHABAMBA":{ content:"Distrito 9 conformado por sub distrito 29  Zona Tamborada Pukarita, Sub Distrito 30  Zona 1 de mayo,Sub Distrito 31  Zona Pucara Grande Norte, Sub Distrito 35  Zona Pucara Grande Sur, sub Distrito 36  Zona Pucara Grande Oeste.",
+    },
+
+    "QUE  DISTRITOS, SUBDISTRITOS Y ZONAS PERTENECEN A LA SUB ALCALDIA ADELA ZAMUDIO  DE COCHABAMBA":{ content:"Distrito 10 conformado por sub distrito  7  Zona Noroeste, sub Distrito 8  Zona Noreste, Sub Distrito 11  Zona Sudoeste, Sub Distrito 12  Zona Sudeste.Distrito 11 conformado por sub distrito 9  Zona Muyurina, Sub Distrito 13  Zona Las Cuadras.Distrito 12 conformado por sub distrito 2  Zona Sarco,Sub Distrito   Zona Cala Cala,Sub Distrito 4  Zona Queru Queru,Sub Distrito 5  Zona Tupuraya,Sub Distrito 6  Zona Hipodromo.",
+    },
+
+    "QUE  DISTRITOS, SUBDISTRITOS Y ZONAS PERTENECEN A LA SUB ALCALDIA TAMBORADA  DE COCHABAMBA":{ content:"Distrito 15 conformado por sub distrito 32  Zona Valle Hermoso Oeste, Sub Distrito 33  Khara Khara Arrumani, sub distrito 35 zona pukara grande sur.",
+    },
+
+    "PARA QUE SIRVE LA RESTRICCION VEHICULAR EN COCHABAMBA":{content:" Para disminuir el numero de vehiculos que circulan en la zona critica de la ciudad, facilitar la circulacion de vehiculos en el area central, posibilitar un eficiente servicio de transporte de pasajeros minimizando los problemas de congestionamiento vial y los tiempos de desplazamiento y disminuir la contaminacion ambiental provocada por la emision de gases de escape de vehiculos por el congestionamiento vial.",
+    },
+
+    "CUAL ES EL AREA DE LA RESTRICCION VEHICULAR DE COCHABAMBA":{content:"la restriccion de ingreso y circulacion de vehiculos al area central de la ciudad esta limitada por las siguientes vias Avenida Oquendo, Circuito Bolivia Oeste, Avenida 6 de Agosto, Avenida Ayacucho, Corredor San Sebastian, Avenida Aroma, Calle Junin, Calle Gral. Acha, Avenida Ayacucho, Avenida Rafael Urquidi, Avenida Ramon Rivero y cierre con la Avenida Oquendo.",
+    },
+
+    "CUAL ES LA RESTRICCION VEHICULAR POR NUMERO DE PLACA EN COCHABAMBA":{ content:"Dia Lunes no puede ingresar si el ultimo numero de su placa es cero y uno, dia Martes no puede ingresar si el ultimo numero de su placa es dos y tres, dia miercoles no puede ingresar si el ultimo numero de su placa es cuatro y  cinco, dia jueves no puede ingresar si el ultimo numero de su placa es seis y siete, dia viernes no puede ingresar si el ultimo numero de su placa es ocho y nueve.",
+    },
+
+    "QUE PLACA NO INGRESA EL DIA LUNES POR LA RESTRICCION VEHICULAR EN COCHABAMBA ":{content:"No puede ingresar si el ultimo numero de su placa es cero y uno.",
+    },
+
+    "QUE PLACA NO INGRESA EL DIA MARTES POR LA RESTRICCION VEHICULAR EN COCHABAMBA":{content:"No puede ingresar si el ultimo numero de su placa es dos y tres.",
+    },
+
+    "QUE PLACA NO INGRESA EL DIA MIERCOLES POR LA RESTRICCION VEHICULAR EN COCHABAMBA":{content:"No puede ingresar si el ultimo numero de su placa es cuatro y cinco.",
+    },
+
+    "QUE PLACA NO INGRESA EL DIA JUEVES POR LA RESTRICCION VEHICULAR EN COCHABAMBA":{content:"No puede ingresar si el ultimo numero de su placa es seis y siete.",
+    },
+
+    "QUE PLACA NO INGRESA EL DIA VIERNES POR LA RESTRICCION VEHICULAR EN COCHABAMBA":{content:"No puede ingresar si el ultimo numero de su placa es ocho y nueve.",
+    },
+
+    "CUAL ES EL HORARIO DE LA RESTRICCION VEHICULAR EN COCHABAMBA":{content:"el horario establecido para el control y cumplimiento de la restriccion de ingreso y circulacion de vehiculos es de 7 30 manana  a 19  tarde.",
+    },
+
+    "A QUE VEHICULOS SE APLICARA LA RESTRICCION VEHICULAR EN COCHABAMBA":{content:"se aplica todo vehiculo del servicio particular, todo vehiculo de servicio de radio Taxi, Radio Movil, Taxi Asociado,  Taxi Libre, todos los vehiculos oficiales, excepto los vehiculos oficiales del Presidente del estado plurinacional, Gobernador, Alcalde Municipal, asi como vehiculos de Auxilio, emergencia y medios de Comunicacion, todos los vehiculos de los precitados incisos 1, 2 y 3, registrados en el Gobierno Autonomo Municipal de Cochabamba, los registrados en otros municipios que desarrollan su trabajo en la jurisdiccion del Cercado y aquellos que estan en transito por la ciudad de Cochabamba.",
+    },
+
+    "QUIENES ESTAN EXCLUIDOS DE LA RESTRICCION VEHICULAR EN COCHABAMBA":{content:"Los vehiculos de transporte urbano de pasajeros de las modalidades correspondientes a Buses, Microbuses, Minibuses y Taxitrufis definidos en el Articulo 11 del Reglamento Municipal para el Servicio de Transporte Publico de Pasajeros aprobado por Ordenanza Municipal Numero 2998 del 2003, vehiculos que por contrato de construccion de obras o de servicios esten vinculados con el Gobierno Autonomo Municipal de Cochabamba y cuenten con autorizacion de la Direccion de Planeamiento, a traves del Departamento de Ordenamiento de Sistemas de Movilidad Urbana.",
+    },
+
+    "CUAL ES LA MULTA POR RESTRICCION VEHICULAR EN COCHABAMBA":{content:"El ingreso de un vehiculo al area descrita en el Articulo Primero en dias en que la terminacion numerica de la placa se encuentre restringida, sera considerado como una infraccion, para lo cual se aplicara una multa de Bolivianos 100.En caso de resistencia o ausencia del propietario o conductor del vehiculo, el mismo sera trasladado a garaje de resguardo.Para que un vehiculo conducido o trasladado con remolque a garaje de resguardo pueda ser liberado, el conductor o propietario debera acreditar la propiedad o tenencia legal del vehiculo, haber cancelado la Multa correspondiente en la Direccion de Recaudaciones e Ingresos del Municipio; cancelar la tarifa de Bolivianos 100 por el traslado del vehiculo a la empresa convocada para el efecto y cancelar y Bolivianos  10 por dia de permanencia del vehiculo en garaje de resguardo.",
+    },
+
+    "QUE ES LA FOTOMULTA EN COCHABAMBA":{content:"Es un sistema de vigilancia automatizado que utiliza camaras para capturar imagenes de vehiculos que infringen las normas de restriccion vehicular, estas camaras registran la placa del vehiculo y la fecha y hora de la infraccion, y luego se emite una multa al propietario del vehiculo.",
+    },
+
+    "EN QUE NORMATIVA SE BASA LA RESTRICCION VEHICULAR DE COCHABAMBA":{content:"En la ley Municipal numero  395 del 2019, de regulacion de ingresos no tributariosOrdenanza Municipal  Numero 4394 del 2012,  Restriccion vehicular.",
+    },
+
+    "QUE ES EL ESTACIONAMIENTO TARIFADO DE COCHABAMBA":{content:"Regular las condiciones de utilizacion y uso de las vias publicas con fines de estacionamiento temporal de vehiculos particulares, asi como, la disposicion de paradas para el servicio de transporte publico de pasajeros y la aplicacion de las sanciones correspondientes.",
+    },
+    "CUALES SON LOS HORARIOS PARA ESTACIONAMIENTO PERMITIDO, TARIFADO, PROHIBIDO EN VIAS PUBLICAS DE COCHABAMBA":{content:"Los estacionamientos vehiculares permitidos podran ser utilizados mientras no exista una restriccion que prohiba su uso. Los horarios de uso de las vias de estacionamiento tarifado son desde las 8 de la manana  hasta las 12 de la tarde y desde las 14 30 de la tarde hasta las 18 30 de la tarde de lunes a viernes y los sabados de 8 de la manana  hasta las 13 de la tarde. Los horarios de control en las vias de estacionamiento prohibido se determinaran en funcion a los niveles de congestion, demoras, perfiles de via, volumen de vehiculos y otros parametros tecnicos, y estaran establecidos mediante Decreto Municipal Reglamentario.",
+     },
+    
+    "CUALES SON LAS TARIFAS DE ESTACIONAMIENTO EN COCHABAMBA":{content:"La tarifa unica por cada treinta minutos de Estacionamiento en las vias de estacionamiento tarifado, es de bolivianos uno.",
+     },
+    
+    "COMO PAGO EL ESTACIONAMIENTO EN COCHABAMBA":{content:"El pago por el servicio de estacionamiento municipal se puede realizar con el personal del servicio de estacionamiento municipal  distribuido por las areas de parqueo tarifado, por la aplicacion Innova para celulares o la pagina web de Innova .",
+     },
+    
+    "CUAL ES LA MULTA POR NO PAGAR EL ESTACIONAMIENTO EN COCHABAMBA":{content:"La no cancelacion por uso del estacionamiento tiene una multa de 25 Bolivianos  la primera vez y 35 Bolivianos  la reincidencia.",
+     },
+    
+    "CUAL ES LA MULTA POR PASAR DEL TIEMPO DE  ESTACIONAMIENTO EN COCHABAMBA":{content:"La permanencia por mayor tiempo del efectivamente cancelado DEL ESTACIONAMIENTO, con una tolerancia de 15 minutos  tiene una multa de 25 Bolivianos  la primera vez y 35 Bolivianos la reincidencia.",
+     },
+    
+    "CUAL ES LA MULTA POR OCUPAR MAYOR ESPACIO DE ESTACIONAMIENTO EN COCHABAMBA":{content:"La ocupacion de mas de un espacio demarcado, impidiendo con ello que sea utilizado por otro vehiculo tiene una multa de 25 Bolivianos  la primera vez y 35 Bolivianos  la reincidencia.",
+     },
+    "CUAL ES LA MULTA POR no colocar el comprobante de pago de estacionamiento en un lugar visible del vehiculo EN COCHABAMBA":{content:"La falta de colocacion del comprobante de pago de estacionamiento en lugar visible al interior del vehiculo. tiene una multa de 25 Bolivianos la primera vez y 35 Bolivianos  la reincidencia.",
+     },
+    
+    "CUAL ES LA MULTA POR Permanecer con el cepo o engrapado por mas de una hora EN COCHABAMBA,":{content:"Permanecer con el dispositivo de inmovilizacion por mas de dos horas tiene un costo de 100 Bolivianos  por la multa y cubrir el costo de 100 Bolivianos por el traslado a garaje de resguardo, al propietario de la grua.",
+     },
+    
+    "CUAL ES LA MULTA POR Danar o destruir la senalizacion vertical u horizontal EN COCHABAMBA.":{content:"La destruccion de la senalizacion vertical tiene una multa de 100 Bolivianos  mas los costos de reposicion de la senalizacion danada.",
+     },
+    
+    "QUE ES UN TRASLADO DE VEHICULO EN COCHABAMBA":{content:"En caso de resistencia al pago de la multa o ausencia del propietario o conductor del vehiculo infractor, el vehiculo sera trasladado a garaje de resguardo Para que un vehiculo conducido o trasladado con remolque a garaje de resguardo pueda ser liberado, el conductor o propietario debera acreditar la propiedad o tenencia legal del vehiculo, y haber cancelado La multa correspondiente a la infraccion.Por el traslado del vehiculo al garaje de resguardo.  Por la permanencia del vehiculo en garaje de resguardo, la suma de bolivianos 10 por dia.",
+     },
+    
+    "DONDE PAGO MULTAS POR INFRACCION EN COCHABAMBA":{content:"La cancelacion de las multas y sanciones sera realizada de manera virtual en la plataforma INNOVA,  en oficinas de la Direccion de Recaudaciones, la Division del Servicio de Estacionamiento Municipal, entidades bancarias habilitadas para el servicio de cancelacion de infracciones.",
+     },
+    
+    "CUAL ES LA NORMATIVA DE ESTACIONAMIENTO EN COCHABAMBA":{content:"La Constitucion Politica del Estado Articulos 283 y 302. Ley numero 31 Marco de Autonomias y Descentralizacion Andres Ibanez.Ley numero 165 General de Transportes. Ley Municipal numero 395 del 2019, De regulacion de ingresos no tributarios. Ley Municipal numero 1087 del 2022,  De regulacion de estacionamientos temporales en vias publicas de la ciudad de Cochabamba.Ordenanza Municipal numero 4398 del 2012, Reglamento sobre estacionamiento vehicular.",
+     },
+    
+    "QUE ES EL TAXI SEGURO EN COCHABAMBA":{content:"Tiene por objeto regular y dar seguridad a los pasajeros de transporte publico de taxis y radiotaxis, estableciendo el procedimiento para el registro, obligaciones de los conductores, facultades del Gobierno Autonomo Municipal de Cochabamba, infracciones, sanciones y entrega de distintivos de Registro Vehicular a los propietarios de vehiculos en el municipio de Cochabamba y poder denominarlos Taxi Seguro.",
+     },
+    
+    "PARA QUE SIRVE TAXI SEGURO EN COCHABAMBA":{content:"Para Reducir el indice de hechos ilicitos en la ciudad de Cochabamba por medio de acciones que uniformizan los distintivos de identificacion de los servicios de taxis y radiotaxis.Determinar los requisitos, plazos y condiciones para la recepcion de documentacion, llenado en el sistema de registro y entrega del Distintivo del Registro Vehicular asi como el colocado en los vehiculos automotores de tipo taxi y radio taxi. Contar con una base de datos actualizada de la poblacion de conductores de taxis y radiotaxis asi como de las movilidades utilizadas.Establecer las infracciones y sanciones ante el incumplimiento de la obtencion del Distintivo de Registro Vehicular.",
+     },
+    
+    "OBLIGACIONES DE TAXI SEGURO EN COCHABAMBA":{content:"Las personas naturales o juridicas que brindan el Servicio de Transporte Publico de Pasajeros en la modalidad de Taxi o Radio Taxi, estan obligadas a:El Propietario del vehiculo, debe recabar y exhibir el Distintivo Autoadhesivo del Registro Vehicular (RV) de su vehiculo, en el angulo superior derecho del parabrisas delantero del vehiculo.El Propietario del vehiculo, debe implementar a su costo todas las caracteristicas adicionales de Identificacion del Registro Vehicular (RV). Las Empresas de Radio Taxis, deben exigir a todos sus conductores, la presentacion del RV como requisito antes de su incorporacion.Todo vehiculo registrado como Taxi Seguro con caracter Obligatorio debera ser conducido por un conductor que cuente con la Tarjeta de Identificacion del Conductor.(TIC) correspondiente.",
+     },
+    
+    "QUE CARACTERISTICAS TIENE EL DISTINTIVO DE REGISTRO VEHICULAR DE COCHABAMBA":{content:"consistira en un autoadhesivo con Logotipo del Escudo del Estado Plurinacional de Bolivia en la parte superior izquierda, Logotipo del escudo del Gobierno Autonomo municipal en la parte inferior derecha, Numero de placa del vehiculo, con una dimension de diez centimetros de alto y veinte centimetros  de ancho y el numero de serie del registro.",
+     },
+    
+    "CUALES SON LOS REQUISITOS DEL TRAMITE DE REGISTRO VEHICULAR EN COCHABAMBA":{content:"El propietario de Taxis o Radio Taxi, debera registrar su vehiculo en las oficinas de la Direccion de Movilidad Urbana adjuntando la siguiente documentacionFotocopia de Carnet de Identidad.Fotocopia del RUAT.Fotocopia del certificado de SOAT vigente.Fotocopia del Certificado de la Inspeccion Tecnica Vehicular.Fotocopia de la TIC otorgada por el Organismo Operativo de Transito.Cumplir con la inspeccion fisica del vehiculo por la DGMU a traves del DTP.Todos los interesados al momento de presentar las fotocopias, deben exhibir el original de los documentos.",
+     },
+    
+    "CUAL ES EL PROCEDIMIENTO PARA TENER EL REGISTRO VEHICULAR EN COCHABAMBA":{content:"Recibida la documentacion el (la) funcionario (a) del DTP, verificara la presentacion de todos los requisitos y la autenticidad de las fotocopias respecto de los originales.En caso de que faltare uno o varios de los requisitos establecidos, se procedera a la devolucion inmediata de la documentacion al solicitante y se tendra como no presentada.Cumplida la presentacion de todos los requisitos, el (la) funcionario (a) registrara la carpeta y datos del vehiculo y de su propietario.Se remitira los antecedentes al tecnico encargado para la digitalizacion de la informacion y registro del vehiculo con un numero de serie correlativo.Posteriormente, el responsable del DTP, comunicara al responsable de la DGMU quien a su vez autorizara la impresion del distintivo de registro del vehiculo y dispondra el pegado del mismo en el vehiculo automotor.La carpeta y antecedentes del tramite sera archivada y quedara bajo custodia del DTP.El tramite desde su inicio hasta la entrega del distintivo del RV tendra una duracion maxima de 5 dias habiles.",
+     },
+    
+    "CUALES ES LA VIGENCIA DEL REGISTRO VEHICULAR EN COCHABAMBA":{content:"El distintivo del registro de vehiculo de transporte publico para Taxis o Radio Taxis estara vigente hasta que el propietario del vehiculo disponga el cambio de uso, transferencia o la baja del registro.El distintivo de los vehiculos registrados para prestar el Servicio Publico de Taxis y Radio Taxis es de uso unico y exclusivo del vehiculo registrado",
+     },
+    
+    "QUE HACER EN CASO DE PERDIDA, DANO O ROBO DEL DISTINTIVO DEL REGISTRO VEHICULAR EN COCHABAMBA":{content:"En caso de perdida o robo del distintivo de registro, el titular deberaDenunciar el hecho ante la Fuerza Especial de Lucha Contra el Crimen FELCC. Publicar en un medio de prensa de circulacion nacional la perdida o robo del distintivo.Presentar una copia de la Denuncia y la Publicacion realizada a la DGMU.El responsable del DTP, comunicara al responsable de la DGMU quien a su vez autorizara la reposicion e impresion del distintivo de registro del vehiculo y dispondra el pegado del mismo en el vehiculo automotor.En caso de que se produzca algun dano o deterioro del distintivo, debera ser devuelto al DTP, para la reposicion del distintivo de registro.",
+     },
+    
+    "COMO DOY DE BAJA EL REGISTRO VEHICULAR DE COCHABAMBA":{content:"El propietario que deje de prestar el Servicio Publico de Transporte en la modalidad de Taxi o Radio Taxi, o transfiera el vehiculo, debe solicitar mediante una carta dirigida al Alcalde o Alcaldesa del GAMC la baja del Registro del Vehiculo y retiro del distintivo del motorizado.En caso de transferencia del vehiculo y que el nuevo propietario continue realizando el Servicio Publico de Transporte en la modalidad de Taxi o Radio Taxi, este debera realizar el tramite para Registro del Vehiculo cumpliendo los requisitos establecidos en la presente Ley Municipal.",
+     },
+    
+    "CUALES SON LAS INFRACCIONES Y SANCIONES DEL REGISTRO VEHICULAR EN COCHABAMBA":{content:"El propietario del vehiculo que brinde el servicio de Taxis o Radiotaxis sin contar con el RV sera sujeto a una multa de 300.00 Bolivianos. El Propietario del vehiculo que brinde el servicio de Taxis o Radiotaxis sin exhibir el RV sera sujeto a una multa de 150.00 Bolivianos.El propietario del vehiculo que brinde el servicio de Taxi o Radio Taxi sin cumplir con las caracteristicas de identificacion del RV sera sujeto a una multa de 100 Bolivianos.El pago de las multas se realizara en las oficinas de la Direccion de Ingresos Tributarios del Gobierno Autonomo Municipal de Cochabamba.",
+     },
+    "CUALES SON LAS SUB SUB ALCALDIAS  DE COCHABAMBA ":{content:"LAS SUB ALCALDIAS son Tunari ubicada en la Avenida. Circunvalacion y Melchor Perez de Olguin.Molle ubicada en la Avenida Daniel Campos (Mercado el Rosario)Valle Hermoso, ubicada en Circuito Bolivia, esquina avenida Barranca, lado oeste del Campo Ferial.Adela Zamudio, ubicada en la Avenida Uyuni casi puente Recoleta NUMERO 654Alejo Calatayud, ubicada en la Avenida. Petrolera kilometro 2 y medio  edificio verde.Itocta ubicada en la Avenida Petrolera kilometro  4 Entrando al PolitecnicoTamborada.",
+    },
+    "SUB SUB ALCALDIAS  DE COCHABAMBA ":{content:"LAS SUB ALCALDIAS son Tunari ubicada en la Avenida. Circunvalacion y Melchor Perez de Olguin.Molle ubicada en la Avenida Daniel Campos (Mercado el Rosario)Valle Hermoso, ubicada en Circuito Bolivia, esquina avenida Barranca, lado oeste del Campo Ferial.Adela Zamudio, ubicada en la Avenida Uyuni casi puente Recoleta NUMERO 654Alejo Calatayud, ubicada en la Avenida. Petrolera kilometro 2 y medio  edificio verde.Itocta ubicada en la Avenida Petrolera kilometro  4 Entrando al PolitecnicoTamborada.",
+    },
+    "SUBALCALDIAS":{content:"LAS SUB ALCALDIAS son Tunari ubicada en la Avenida. Circunvalacion y Melchor Perez de Olguin.Molle ubicada en la Avenida Daniel Campos (Mercado el Rosario)Valle Hermoso, ubicada en Circuito Bolivia, esquina avenida Barranca, lado oeste del Campo Ferial.Adela Zamudio, ubicada en la Avenida Uyuni casi puente Recoleta NUMERO 654Alejo Calatayud, ubicada en la Avenida. Petrolera kilometro 2 y medio  edificio verde.Itocta ubicada en la Avenida Petrolera kilometro  4 Entrando al PolitecnicoTamborada.",
+    },
+    "CUAL ES LA BIOGRAFIA DE MANFRED REYES VILLA":{content:" El Capitan Manfred Reyes Villa Bacigalupi actualmente Alcalde de Cochabamba, es un militar retirado, politico y empresario. Es cochabambino por decision, ama a su gente, a su tierra y sobre todo a Dios, nacio en La Paz en 1955. Actualmente esta casado y tuvo 7 hijos, dos de los cuales ya han fallecido. Estudio en el Colegio Israelita de la ciudad de La Paz; en 1973 ingreso a la Escuela Militar del Ejercito, donde en 1977 obtuvo el grado de Segundo Teniente. Durante su carrera militar ocupo importantes cargos como docente en Asuntos de Especializacion Militar, y trabajo como Agregado Militar de la Embajada de Bolivia en Brasil y Estados Unidos. En 1988, por motivos personales, abandona definitivamente su carrera militar con el grado de Capitan del Ejercito para residir en Estados Unidos dedicandose a la vida civil y familiar, y en su area de formacion academica (Business Management), ocupando tambien importantes cargos. como Vicepresidente de Crawford International en Silver Spring, Maryland Estados Unidos.A su regreso a Bolivia, inicio su carrera politica a principios de los anos 1990. En 1992 asumio la Vicepresidencia del Concejo Municipal de Cochabamba. Posteriormente ocupo la Alcaldia por cuatro periodos consecutivos entre 1993 y 2000. Simultaneamente a su labor como Alcalde, fue elegido Presidente de la Asociacion de Gobiernos Municipales Autonomos de Bolivia, asumiendo el cargo de Miembro de la Union Internacional de Autoridades Locales (ULA) y siendo designado de manera intermitente como Representante Oficial de la Red Latinoamericana de Asociaciones Municipales ante la Asociacion Mundial de Coordinacion de Ciudades y Autoridades Locales, con sede en Ginebra, Suiza.En 2005 fue el primer Prefecto del departamento de Cochabamba elegido democraticamente y, en abril de 2009, en el marco de la nueva Constitucion Politica del Estado, se postulo a las elecciones presidenciales de 2009 obteniendo el segundo lugar de preferencia electoral. Reyes Villa se postulo nuevamente como Alcalde de Cochabamba en las elecciones subnacionales de 2021 representando a la agrupacion politica SUMATE, resultando electo por quinta vez con el 55.63% de los votos, ocupando la sede de este municipio como un politico experimentado, con una fuerte trayectoria. disco y grandes ideas..",
+    },
+    "BIOGRAFIA MANFRED REYES VILLA":{content:" El Capitan Manfred Reyes Villa Bacigalupi actualmente Alcalde de Cochabamba, es un militar retirado, politico y empresario. Es cochabambino por decision, ama a su gente, a su tierra y sobre todo a Dios, nacio en La Paz en 1955. Actualmente esta casado y tuvo 7 hijos, dos de los cuales ya han fallecido. Estudio en el Colegio Israelita de la ciudad de La Paz; en 1973 ingreso a la Escuela Militar del Ejercito, donde en 1977 obtuvo el grado de Segundo Teniente. Durante su carrera militar ocupo importantes cargos como docente en Asuntos de Especializacion Militar, y trabajo como Agregado Militar de la Embajada de Bolivia en Brasil y Estados Unidos. En 1988, por motivos personales, abandona definitivamente su carrera militar con el grado de Capitan del Ejercito para residir en Estados Unidos dedicandose a la vida civil y familiar, y en su area de formacion academica (Business Management), ocupando tambien importantes cargos. como Vicepresidente de Crawford International en Silver Spring, Maryland Estados Unidos.A su regreso a Bolivia, inicio su carrera politica a principios de los anos 1990. En 1992 asumio la Vicepresidencia del Concejo Municipal de Cochabamba. Posteriormente ocupo la Alcaldia por cuatro periodos consecutivos entre 1993 y 2000. Simultaneamente a su labor como Alcalde, fue elegido Presidente de la Asociacion de Gobiernos Municipales Autonomos de Bolivia, asumiendo el cargo de Miembro de la Union Internacional de Autoridades Locales (ULA) y siendo designado de manera intermitente como Representante Oficial de la Red Latinoamericana de Asociaciones Municipales ante la Asociacion Mundial de Coordinacion de Ciudades y Autoridades Locales, con sede en Ginebra, Suiza.En 2005 fue el primer Prefecto del departamento de Cochabamba elegido democraticamente y, en abril de 2009, en el marco de la nueva Constitucion Politica del Estado, se postulo a las elecciones presidenciales de 2009 obteniendo el segundo lugar de preferencia electoral. Reyes Villa se postulo nuevamente como Alcalde de Cochabamba en las elecciones subnacionales de 2021 representando a la agrupacion politica SUMATE, resultando electo por quinta vez con el 55.63% de los votos, ocupando la sede de este municipio como un politico experimentado, con una fuerte trayectoria. disco y grandes ideas..",
+    },
+    "QUIEN ES MANFRED REYES VILLA":{content:" El Capitan Manfred Reyes Villa Bacigalupi actualmente Alcalde de Cochabamba, es un militar retirado, politico y empresario. Es cochabambino.",
+    },
+    "QUE ES Y EN QUE CONSISTE EL TRAMITE DE REGISTRO CATASTRAL EN COCHABAMBA": {content:"Es el registro de la informacion del bien inmueble tecnico y legal, ya sea en la creacion de una nueva unidad catastral o cuando existan cambios en el estado fisico del inmueble, propietarios, nuevas construcciones o mejora de las mismas.",
+    },
+
+    "CUAL ES LA UNIDAD RESPONSABLE DE REGISTRO CATASTRAL EN COCHABAMBA": {content: "la Direccion de Administracion Geografica y Catastro.",
+    },
+
+    "CUANTO DURA EL TRAMITE DE REGISTRO CATASTRAL EN COCHABAMBA": {content: "10 dias calendario aproximadamente, en caso de no tener observacion en los requisitos.",
+    },	
+
+    "SE PUEDE HACER DE MANERA VIRTUAL EL TRAMITE DE REGISTRO CATASTRAL EN COCHABAMBA": {content: "Aun no es posible realizar el tramite de manera virtual.",
+    },
+
+    "CUALES SON LOS REQUISITOS PARA EL REGISTRO CATASTRAL EN COCHABAMBA": {content: "Los requisitos son Derecho de Admision (Formulario Unico de Recaudaciones FUR DA 40)  32 Bolivianos.Memorial dirigido al Honorable Alcalde Municipal (original y fotocopia simple) o Formulario de solicitud de Tramites Catastrales.Titulo de Propiedad con su folio Real (Fotocopia Legalizada).Plano del Lote (Fotocopia Legalizada).Plano de unidad de propiedad horizontal (si corresponde) (Fotocopia Legalizada).Resolucion administrativa municipal de aprobacion de Propiedad Horizontal (si corresponde) (Fotocopia Legalizada).Impuestos de las ultimas 5 gestiones (Fotocopia simple).Carnet de identidad propietarios (Fotocopia simple).Ultimo Registro Catastral (Fotocopia simple).",
+    },
+    
+
+    "QUE ES EN QUE CONSISTE EL TRAMITE REGISTRO CATASTRAL DE ADECUACION A PROPIEDAD HORIZONTAL EN COCHABAMBA": {content: "Es el documento de una o varias personas naturales o juridicas, que representa su propiedad sobre un bien inmueble a traves de la asignacion de un codigo catastral. Cuenta con informacion legal y tecnica, cuando existe un cambio en el predio al regimen de propiedad horizontal, proporcionando nuevos codigos catastrales y el empadronamiento al Registro Unico para Administracion Tributaria Municipal de las nuevas unidades catastrales.",
+    },
+    
+    "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE REGISTRO CATASTRAL DE ADECUACION A PROPIEDAD HORIZONTAL EN COCHABAMBA":{content: "Direccion de Administracion Geografica y Catastro",
+    },
+    
+    "CUANTO ES LA DURACION DEL TRAMITE DE REGISTRO CATASTRAL DE ADECUACION A PROPIEDAD HORIZONTAL EN COCHABAMBA": {content: "15 dias calendario aproximadamente, en caso de no tener observacion en los requisitos.",
+    },
+        
+    
+    "CUALES SON LOS REQUISITOS PARA EL REGISTRO CATASTRAL DE ADECUACION A PROPIEDAD HORIZONTAL EN COCHABAMBA": {content: "Los requisitos son Derecho de Admision (Formulario Unico de Recaudaciones FUR DA42)  50.00 Bolivianos.Memorial dirigido al Honorable Alcalde Municipal (original y fotocopia simple) o Formulario de solicitud de Tramites Catastrales.Titulo de Adecuacion a propiedad horizontal con sus respectivos folios reales (Fotocopia Legalizada).Titulo de propiedad con su respectivo Folio Real (Fotocopia Legalizada).Resolucion ejecutiva de aprobacion de Adecuacion de propiedad horizontal (Fotocopia Legalizada).Plano de Adecuacion a Propiedad Horizontal (Fotocopia Legalizada).Plano de Lote o Urbanizacion (Fotocopia Legalizada).Impuestos de las ultimas 5 gestiones (Fotocopia simple).Carnet de identidad de los propietarios (Fotocopia simple).Ultimo Registro Catastral (Fotocopia simple).Folder.",
+    },
+
+    "QUE ES  EN QUE CONSISTE EL TRAMITE CERTIFICACION DE DATOS TECNICOS EN COCHABAMBA": {content: "Es el Certificado Catastral que establece la ubicacion exacta, y la superficie del predio de acuerdo a la documentacion presentada, esta certificacion sirve para la correccion de ubicacion y superficies en el Folio Real. brinda informacion de datos tecnicos actuales del predio que coinciden con el plano aprobado por el Gobierno Autonomo Municipal de Cochabamba y el Plano de Informacion de Datos Espaciales (IDE).",
+    },
+    
+    "CUAL ES LA UNIDAD RESPONSABLE PARA EL TRAMITE DE CERTIFICACION DE DATOS TECNICOS EN COCHABAMBA": {content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO",
+    },
+    
+    "CUANTO ES LA DURACION PARA EL TRAMITE DE CERTIFICACION DE DATOS TECNICOS EN COCHABAMBA": {content: "NO SE CUENTA CON EL DATO.",
+    },
+    "SE PUEDE HACER DE MANERA VIRTUAL EL TRAMITE DE CERTIFICACION DE DATOS TECNICOS EN COCHABAMBA": {content: "AUN NO ES POSIBLE REALIZAR EL TRAMITE DE MANERA VIRTUAL.",
+    },
+    
+    "CUALES SON LOS REQUISITOS PARA EL CERTIFICACION DE DATOS TECNICOS EN COCHABAMBA": {content: "DERECHO DE ADMISION (FORMULARIO UNICO DE RECAUDACIONES FUR DA42)  69.00 BOLIVIANOS.MEMORIAL DIRIGIDO AL HONORABLE ALCALDE MUNICIPAL (ORIGINAL Y FOTOCOPIA SIMPLE) O FORMULARIO DE SOLICITUD DE TRAMITES CATASTRALES.TITULO DE PROPIEDAD CON SU FOLIO REAL (FOTOCOPIA LEGALIZADA).PLANO DEL LOTE (FOTOCOPIA LEGALIZADA).PLANO DE UNIDAD DE PROPIEDAD HORIZONTAL (SI CORRESPONDE) (FOTOCOPIA LEGALIZADA).RESOLUCION ADMINISTRATIVA MUNICIPAL DE APROBACION DE PROPIEDAD HORIZONTAL (SI CORRESPONDE) (FOTOCOPIA LEGALIZADA).CARNET DE IDENTIDAD DE LOS PROPIETARIOS (FOTOCOPIA SIMPLE).",
+    },
+    
+    "QUE ES EL TRAMITE DE CERTIFICACION CATASTRAL  SI LA SOLICITUD ES VERBAL EN COCHABAMBA": {content: "ES EL DOCUMENTO OFICIAL POR EL CUAL EL GOBIERNO AUTONOMO MUNICIPAL DE COCHABAMBA, BRINDA SEGURIDAD JURIDICA A LOS ADMINISTRADOS Y DA CONSTANCIA DEL REGISTRO DE UN BIEN INMUEBLE EN EL CATASTRO, CONSIGNANDO LA ULTIMA INFORMACION TECNICA, LEGAL.",
+    },
+    
+    "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE CERTIFICACION CATASTRAL EN COCHABAMBA": {content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO.",
+    },
+    
+    "CUANTO ES LA DURACION DEL TRAMITE  DE CERTIFICACION CATASTRAL EN COCHABAMBA":{content: "PRIMER DIA HABIL, EN CASO DE NO TENER OBSERVACION EN LOS REQUISITOS.",
+    },
+    
+    
+    "CUALES SON LOS REQUISITOS PARA LA CERTIFICACION CATASTRAL (SOLICITUD VERBAL) EN COCHABAMBA": {content: "LOS REQUISITOS SON DERECHO DE ADMISION (FORMULARIO UNICO DE RECAUDACIONES FUR DA42) - 50.00 BOLIVIANOS.MEMORIAL DIRIGIDO AL HONORABLE ALCALDE MUNICIPAL (ORIGINAL Y FOTOCOPIA SIMPLE) O FORMULARIO DE SOLICITUD DE TRAMITES CATASTRALES.TITULO DE PROPIEDAD CON SU FOLIO REAL (FOTOCOPIA LEGALIZADA).PLANO DEL LOTE (FOTOCOPIA LEGALIZADA).PLANO DE UNIDAD DE PROPIEDAD HORIZONTAL (SI CORRESPONDE) (FOTOCOPIA LEGALIZADA).RESOLUCION ADMINISTRATIVA MUNICIPAL DE APROBACION DE PROPIEDAD HORIZONTAL (SI CORRESPONDE) (FOTOCOPIA LEGALIZADA).IMPUESTOS DE LAS ULTIMAS 5 GESTIONES (FOTOCOPIA SIMPLE).CARNET DE IDENTIDAD DE LOS PROPIETARIOS (FOTOCOPIA SIMPLE).",
+    },
+    
+    
+    "QUE ES EL TRAMITE CERTIFICACION CATASTRAL  DE USUCAPION EN COCHABAMBA": {content: "ES EL DOCUMENTO OFICIAL POR EL CUAL EL GOBIERNO AUTONOMO MUNICIPAL DE COCHABAMBA, BRINDA SEGURIDAD JURIDICA A LOS ADMINISTRADOS Y DA CONSTANCIA DEL REGISTRO DE UN BIEN INMUEBLE EN EL CATASTRO,CONSIGNANDO LA ULTIMA INFORMACION TECNICA, LEGAL.",
+    },
+    
+    "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE CERTIFICACION CATASTRAL  DE USUCAPION EN COCHABAMBA": {content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO",
+    },
+    
+    "CUANTO ES LA DURACION DEL TRAMITE DE CERTIFICACION CATASTRAL DE USUCAPION EN COCHABAMBA": {content: "5 DIAS HABILES, EN CASO DE NO TENER OBSERVACION EN LOS REQUISITOS.",
+    },
+    
+    
+    "CUALES SON LOS REQUISITOS PARA EL CERTIFICACION CATASTRAL (USUCAPION) EN COCHABAMBA": {content: "LOS REQUISITOS SON DERECHO DE ADMISION (FORMULARIO UNICO DE RECAUDACIONES FUR DA42) - 50.00 BOLIVIANOS.ORDEN JUDICIAL O MEMORIAL SOLICITANDO CERTIFICACIONES PARA USUCAPION O ADJUDICACION.INFORME TOPOGRAFICO ELABORADO EN LA SUB ALCALDIA CORRESPONDIENTE.PLANO ELABORADO POR EL TOPOGRAFO DE LA SUB ALCALDIA.INFORME DE REMISION DEL TRAMITE DE USUCAPION O ADJUDICACION ELABORADO EN LA SUB ALCALDIA CORRESPONDIENTE.",
+    },
+     
+    "QUE ES EL TRAMITE CERTIFICACION CATASTRAL (PARA PROCESO DE ADJUDICACION) EN COCHABAMBA": {content: "ES EL DOCUMENTO OFICIAL POR EL CUAL EL GOBIERNO AUTONOMO MUNICIPAL DE COCHABAMBA, BRINDA SEGURIDAD JURIDICA A LOS ADMINISTRADOS Y DA CONSTANCIA DEL REGISTRO DE UN BIEN INMUEBLE EN EL CATASTRO,CONSIGNANDO LA ULTIMA INFORMACION TECNICA, LEGAL.",
+    },
+    
+    "CUAL ES LA UNIDAD RESPONSABLE DE TRAMITE CERTIFICACION CATASTRAL (PARA PROCESO DE ADJUDICACION) EN COCHABAMBA": {content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO",
+    },
+    
+    "CUANTO ES LA DURACION DEL  DE CERTIFICACION CATASTRAL (PARA PROCESO DE ADJUDICACION) EN COCHABAMBA": {content: "5 DIAS HABILES, EN CASO DE NO TENER OBSERVACION EN LOS REQUISITOS.",
+    },
+    
+    "CUALES SON LOS REQUISITOS PARA LA CERTIFICACION CATASTRAL (PARA PROCESO DE ADJUDICACION EN COCHABAMBA": {content: "LOS REQUISITOS SON DERECHO DE ADMISION (FORMULARIO UNICO DE RECAUDACIONES FUR DA42) - 50.00 BOLIVIANOS.ORDEN JUDICIAL O MEMORIAL SOLICITANDO CERTIFICACIONES PARA USUCAPION O ADJUDICACION.INFORME TOPOGRAFICO ELABORADO EN LA SUB ALCALDIA CORRESPONDIENTE.PLANO ELABORADO POR EL TOPOGRAFO DE LA SUB ALCALDIA.INFORME DE REMISION DEL TRAMITE DE USUCAPION O ADJUDICACION ELABORADO EN LA SUB ALCALDIA CORRESPONDIENTE.",
+    },
+    
+    "QUE ES EL TRAMITE DE CERTIFICACION CATASTRAL (PARA LA REGULARIZACION DEL DERECHO PROPIETARIO LEY 247) EN COCHABAMBA": {content: "ES EL DOCUMENTO OFICIAL POR EL CUAL EL GOBIERNO AUTONOMO MUNICIPAL DE COCHABAMBA, QUE MUESTRA LA ULTIMA INFORMACION TECNICO, LEGAL QUE REGISTRA EL INMUEBLE O UNIDAD CATASTRAL DENTRO DEL MUNICIPIO, ADEMAS DE CERTIFICAR LA EXISTENCIA DE CONSTRUCCIONES HABITADAS EN EL PERIODO ESTABLECIDO DE ACUERDO A LA NORMATIVA.",
+    },
+    
+    "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE CERTIFICACION CATASTRAL (PARA LA REGULARIZACION DEL DERECHO PROPIETARIO LEY 247) EN COCHABAMBA": {content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO.",
+    },
+    
+    "CUANTO ES LA DURACION DEL TRAMITE EN COCHABAMBA": {content: "10 DIAS HABILES, EN CASO DE NO TENER OBSERVACION EN LOS REQUISITOS.",
+    },
+    
+    "SE PUEDE HACER DE MANERA VIRTUAL EL TRAMITE EN COCHABAMBA": {
+    content: "AUN NO ES POSIBLE REALIZAR EL TRAMITE DE MANERA VIRTUAL.",
+    },
+    
+    "CUALES SON LOS REQUISITOS PARA LA CERTIFICACION CATASTRAL (PARA LA REGULARIZACION DEL DERECHO PROPIETARIO LEY 247) EN COCHABAMBA" :{content: "LOS REQUISITOS SONORDEN JUDICIAL O MEMORIAL SOLICITANDO CERTIFICACIONES PARA USUCAPION O ADJUDICACION.INFORME TOPOGRAFICO ELABORADO EN LA SUB ALCALDIA CORRESPONDIENTE.PLANO ELABORADO POR EL TOPOGRAFO DE LA SUB ALCALDIA.INFORME DE REMISION DEL TRAMITE DE USUCAPION O ADJUDICACION ELABORADO EN LA SUB ALCALDIA CORRESPONDIENTE.", 
+    },
+    
+    "QUE ES EL TRAMITE CERTIFICACION CATASTRAL (PARA PREDIOS MUNICIPALES 207 EN COCHABAMBA)" : {content: "ES EL DOCUMENTO OFICIAL POR EL CUAL EL GOBIERNO AUTONOMO MUNICIPAL DE COCHABAMBA, QUE MUESTRA LA ULTIMA INFORMACION TECNICO, LEGAL QUE REGISTRA EL INMUEBLE O UNIDAD CATASTRAL DENTRO EL MUNICIPIO, DENTRO EL PROCESO DE LA LEY 207 PARA EL REGISTRO DE AREAS VERDES Y EQUIPAMIENTO A FAVOR DEL MUNICIPIO.",
+    },
+    
+    "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE CERTIFICACION CATASTRAL (PARA PREDIOS MUNICIPALES 207 EN COCHABAMBA)": {
+    content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO. ",
+    },
+    
+    "CUANTO ES LA DURACION DEL TRAMITE CERTIFICACION CATASTRAL (PARA PREDIOS MUNICIPALES 207 EN COCHABAMBA)": {content: "10 DIAS HABILES, EN CASO DE NO TENER OBSERVACION EN LOS REQUISITOS.",
+    },
+    
+    "CUALES SON LOS REQUISITOS PARA LA  CERTIFICACION CATASTRAL (PARA PREDIOS MUNICIPALES 207) EN COCHABAMBA": {content: "LOS REQUISITOS SON ORDEN JUDICIAL O MEMORIAL SOLICITANDO CERTIFICACIONES PARA USUCAPION O ADJUDICACION. INFORME TOPOGRAFICO ELABORADO EN LA SUB ALCALDIA CORRESPONDIENTE.",
+    },
+    
+    "QUE ES EL TRAMITE CERTIFICACION CATASTRAL (POR ORDEN JUDICIAL) EN COCHABAMBA": {
+    content: "ES EL CERTIFICADO DE REGISTRO CATASTRAL QUE MUESTRA LA ULTIMA INFORMACION TECNICO, LEGAL QUE REGISTRA EL INMUEBLE O UNIDAD CATASTRAL DENTRO EL MUNICIPIO SOLICITADO POR ORDEN JUDICIAL O DE LA FISCALIA PARA UN PROCESO DETERMINADO.",
+    },
+    
+    "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE CERTIFICACION CATASTRAL (POR ORDEN JUDICIAL) EN COCHABAMBA": {content: "ASUNTOS JURIDICOS.",
+    },
+    
+    "CUANTO ES LA DURACION DEL TRAMITE CERTIFICACION CATASTRAL (POR ORDEN JUDICIAL) EN COCHABAMBA": {content: "2 DIAS HABILES ",
+    },
+    
+    "CUALES SON LOS REQUISITOS PARA LA CERTIFICACION CATASTRAL (POR ORDEN JUDICIAL) EN COCHABAMBA": {content: "EL REQUISITO ES UNA  SOLICITUD DERIVADA POR LA DIRECCION DE ASUNTOS JURIDICOS.",
+    },
+    
+    "QUE ES EL TRAMITE LEGALIZACION DE PLANOS (LOTE, CONSTRUCCION O UNIDAD DE PROPIEDAD HORIZONTAL EN COCHABAMBA": {content: "EL TRAMITE CONSISTE EN LA OBTENCION DE COPIAS LEGALIZADAS DE LOS PLANOS QUE SE ENCUENTRAN CUSTODIADOS EN ARCHIVO DE PLANOS, DE UN PREDIO EN ESPECIFICO.",
+    },
+    
+    "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE LEGALIZACION DE PLANOS (LOTE, CONSTRUCCION O UNIDAD DE PROPIEDAD HORIZONTAL EN COCHABAMBA": {content: "ARCHIVO DE PLANOS.",
+    },
+    
+    "CUANTO ES LA DURACION DEL TRAMITE LEGALIZACION DE PLANOS (LOTE, CONSTRUCCION O UNIDAD DE PROPIEDAD HORIZONTAL EN COCHABAMBA": {content: "1 DIA HABIL.",
+    },
+    
+    "CUALES SON LOS REQUISITOS PARA LA LEGALIZACION DE PLANOS (LOTE, CONSTRUCCION O UNIDAD DE PROPIEDAD HORIZONTAL EN COCHABAMBA": {content: "LOS REQUISITOS SON DERECHO DE ADMISION (FORMULARIO UNICO DE RECAUDACIONES FUR DA42) - 69.00 BOLIVIANOS.TITULO DE PROPIEDAD CON SU FOLIO REAL (FOTOCOPIA LEGALIZADA).IMPUESTOS DE LAS ULTIMAS 5 GESTIONES (FOTOCOPIA SIMPLE).CARNET DE IDENTIDAD DE LOS PROPIETARIOS (FOTOCOPIA SIMPLE).TIMBRE MUNICIPAL DE 10.00 BOLIVIANOS.",
+    },
+    "QUE ES EL TRAMITE LEGALIZACION DE PLANOS PH O URBANIZACION (LAMINA ENTERA) EN COCHABAMBA": {content: "EL TRAMITE CONSISTE EN LA OBTENCION DE COPIAS LEGALIZADAS DE LAS LAMINAS ENTERAS DE LOS PLANOS DE URBANIZACIONES O PROPIEDADES HORIZONTALES QUE SE ENCUENTRAN CUSTODIADOS EN ARCHIVO DE PLANOS, PREVIA AUTORIZACION DE LA OTB O EL DIRECTORIO DE LA PROPIEDAD HORIZONTAL.",
+    },
+    
+    "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE LEGALIZACION DE PLANOS PH O URBANIZACION (LAMINA ENTERA) EN COCHABAMBA": {content: "ARCHIVO DE PLANOS.",
+    },
+    
+    "CUANTO ES LA DURACION DEL TRAMITE DEL TRAMITE LEGALIZACION DE PLANOS PH O URBANIZACION (LAMINA ENTERA) EN COCHABAMBA": {content: "1 DIA HABIL.",
+    },
+    
+    "CUALES SON LOS REQUISITOS PARA LA LEGALIZACION DE PLANOS PH O URBANIZACION. (LAMINA ENTERA) EN COCHABAMBA": {content: "LOS REQUISITOS SON TITULO DE PROPIEDAD CON SU FOLIO REAL (FOTOCOPIA LEGALIZADA).IMPUESTOS DE LAS ULTIMAS 5 GESTIONES (FOTOCOPIA SIMPLE).CARNET DE IDENTIDAD DE LOS PROPIETARIOS (FOTOCOPIA SIMPLE).5 TIMBRES MUNICIPALES DE 10 BOLIVIANOS.AUTORIZACION DE LA OTB O DEL DIRECTORIO DE LA PROPIEDAD HORIZONTAL.",
+    },
+     
+    "QUE ES EL TRAMITE LEGALIZACION DE RESOLUCION  EN COCHABAMBA": {content: "EL TRAMITE CONSISTE EN LA OBTENCION DE COPIAS LEGALIZADAS DE LAS RESOLUCIONES QUE SE ENCUENTRAN CUSTODIADOS EN ARCHIVO  DE PLANOS, DE UN PREDIO EN ESPECIFICO.",
+    },
+    
+    "CUAL ES LA UNIDAD RESPONSABLE  DEL TRAMITE LEGALIZACION DE RESOLUCION  EN COCHABAMBA": {content: "ARCHIVO DE PLANOS.",
+    },
+    
+    "CUANTO ES LA DURACION DEL  TRAMITE LEGALIZACION DE RESOLUCION  EN COCHABAMBA": {content: "1 DIA HABIL.",
+    },
+    
+    "CUALES SON LOS REQUISITOS PARA LA LEGALIZACION DE RESOLUCION EN COCHABAMBA": {content: "SONTITULO DE PROPIEDAD CON SU FOLIO REAL (FOTOCOPIA LEGALIZADA).IMPUESTOS DE LAS ULTIMAS 5 GESTIONES (FOTOCOPIA SIMPLE).CARNET DE IDENTIDAD DE LOS PROPIETARIOS (FOTOCOPIA SIMPLE).TIMBRE MUNICIPAL DE 10.00 BOLIVIANOS.",
+    },
+    
+     
+    "QUE ES EL TRAMITE DE PRE REVISION EN COCHABAMBA": {content: "EL TRAMITE CONSISTE EN LA OBTENCION DE COPIAS LEGALIZADAS DE LAS LAMINAS ENTERAS DE LOS PLANOS DE URBANIZACIONES O PROPIEDADES HORIZONTALES QUE SE ENCUENTRAN CUSTODIADOS EN ARCHIVO DE PLANOS, PREVIA AUTORIZACION DE LA OTB O EL DIRECTORIO DE LA PROPIEDAD HORIZONTAL.",
+    },
+    
+    "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE PRE REVISION EN COCHABAMBA": {content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO.",
+    },
+    
+    "CUANTO ES LA DURACION DEL TRAMITE DE PRE REVISION EN COCHABAMBA": {content: "1 DIA HABIL.",
+    },
+    
+    "CUALES SON LOS REQUISITOS PARA EL TRAMITE DE PRE REVISION EN COCHABAMBA": {content: "LOS REQUISITOS SON DERECHO DE ADMISION DA41 - 22.00 BOLIVIANOS.TITULO DE PROPIEDAD CON SU FOLIO REAL (FOTOCOPIA LEGALIZADA).PLANO DEL LOTE (FOTOCOPIA LEGALIZADA).PLANO DE UNIDAD DE PROPIEDAD HORIZONTAL (SI CORRESPONDE) (FOTOCOPIA LEGALIZADA).RESOLUCION ADMINISTRATIVA MUNICIPAL DE APROBACION DE PROPIEDAD HORIZONTAL (SI CORRESPONDE) (FOTOCOPIA LEGALIZADA).IMPUESTOS DE LAS ULTIMAS 5 GESTIONES (FOTOCOPIA SIMPLE).CARNET DE IDENTIDAD DE LOS PROPIETARIOS (FOTOCOPIA SIMPLE).",
+    },
+     
+    "QUE ES EL TRAMITE DE TRANSCRIPCION EN COCHABAMBA": {content: "ES EL PROCEDIMIENTO QUE PERMITE LA TRANSCRIPCION DE UN REGISTRO CATASTRAL ANTIGUO ENTREGADO POR EL INTERESADO DENTRO EL SISTEMA DE GESTION CATASTRAL, ACOMPANADA DE LA DOCUMENTACION DE RESPALDO.",
+    },
+    
+    "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE TRANSCRIPCION EN COCHABAMBA": {content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO.",
+    },
+    
+    "CUANTO ES LA DURACION DEL TRAMITE DE TRANSCRIPCION EN COCHABAMBA": {content: "10 DIAS HABILES.",
+    },
+    
+    "CUALES SON LOS REQUISITOS PARA LA TRANSCRIPCION EN COCHABAMBA": {content: "LOS REQUISITOS SONDERECHO DE ADMISION DA41 - 22.00 BOLIVIANOS.TITULO DE PROPIEDAD CON SU FOLIO REAL (FOTOCOPIA LEGALIZADA).PLANO DEL LOTE (FOTOCOPIA LEGALIZADA).PLANO DE UNIDAD DE PROPIEDAD HORIZONTAL (SI CORRESPONDE) (FOTOCOPIA LEGALIZADA).RESOLUCION ADMINISTRATIVA MUNICIPAL DE APROBACION DE PROPIEDAD HORIZONTAL (SI CORRESPONDE) (FOTOCOPIA LEGALIZADA).REGISTRO CATASTRAL ORIGINAL.IMPUESTOS DE LAS ULTIMAS 5 GESTIONES (FOTOCOPIA SIMPLE).CARNET DE IDENTIDAD DE LOS PROPIETARIOS (FOTOCOPIA SIMPLE).",
+    },
+    
+     
+    "QUE ES EL TRAMITE DE HOMOLOGACION DE CODIGO CATASTRAL EN COCHABAMBA": {content: "ES LA ACTUALIZACION DE CODIGO CATASTRAL DE ALFANUMERICO A LA NUEVA CODIFICACION, VERIFICANDO SUS ANTECEDENTES Y BUSCANDO EN LA BASE DE DATOS QUE NO HUBIERA NINGUNA OBSERVACION.",
+    },
+    
+    "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE HOMOLOGACION DE CODIGO CATASTRAL EN COCHABAMBA": {content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO.",
+    },
+    
+    "CUANTO ES LA DURACION DEL TRAMITE DE HOMOLOGACION DE CODIGO CATASTRAL EN COCHABAMBA": {content: "1 DIA HABIL.",
+    },
+    
+    "CUALES SON LOS REQUISITOS PARA LA HOMOLOGACION DE CODIGO CATASTRAL EN COCHABAMBA": {content: "LOS REQUISITOS SON PLANO DE LOTE O UBICACION.IMPUESTOS (FOTOCOPIA ULTIMA GESTION).REGISTRO CATASTRAL.",
+    },
+    
+    "QUE ES EL TRAMITE DE ACTUALIZACION Y MODIFICACION DE DATOS TECNICOS EN SISTEMA RUAT EN COCHABAMBA": {content: "ES UNA ACTUALIZACION REALIZADA CON UN AVALUO DE DECLARACION JURADA PARA LA MODIFICACION DE DATOS TECNICOS,PREVIA REVISION DIGITAL EN LA BASE DE DATOS DE CATASTRO Y USO DE HERRAMIENTAS INFORMATICAS.",
+    },
+    
+    "CUAL ES LA UNIDAD RESPONSABLE EL TRAMITE DE ACTUALIZACION Y MODIFICACION DE DATOS TECNICOS EN SISTEMA RUAT EN COCHABAMBA": {content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO.",
+    },
+    
+    "CUANTO ES LA DURACION DEL TRAMITE DE ACTUALIZACION Y MODIFICACION DE DATOS TECNICOS EN SISTEMA RUAT EN COCHABAMBA": {content: "1 DIA HABIL.",
+    },
+    
+    "CUALES SON LOS REQUISITOS PARA LA ACTUALIZACION Y MODIFICACION DE DATOS TECNICOS EN SISTEMA RUAT EN COCHABAMBA": {
+    content: "LOS REQUISITOS SON TITULO DE PROPIEDAD MAS FOLIO REAL (FOTOCOPIA SIMPLE).COPIA DE PLANO DE LOTE O PH.FOTOCOPIA DE CARNET DE IDENTIDAD.REGISTRO CATASTRAL (OPCIONAL).IMPUESTOS (BOLETA DE LAS 5 ULTIMAS GESTIONES).",
+    },
+    
+    "QUE ES EL TRAMITE DE ASISTENCIA TRAMITE DE VISACION DE MINUTAS EN COCHABAMBA": {content: "CONSISTE EN LA VERIFICACION Y ACTUALIZACION DE DATOS EN EL SISTEMA CATASTRAL, SISTEMA RUAT Y SISTEMA DE  VISACION DE TRANSFERENCIA.",
+    },
+    
+    "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE ASISTENCIA TRAMITE DE VISACION DE MINUTAS EN COCHABAMBA": {content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO.",
+    },
+    
+    "CUANTO ES LA DURACION DEL TRAMITE DE ASISTENCIA TRAMITE DE VISACION DE MINUTAS EN COCHABAMBA": {content: "1 DIA HABIL.",
+    },
+    
+    "SE PUEDE HACER DE MANERA VIRTUAL DEL TRAMITE DE ASISTENCIA TRAMITE DE VISACION DE MINUTAS EN COCHABAMBA": {content: "SE INICIA CON EL LLENADO DE DECLARACION JURADA, RECABADA EN LA PAGINA WEB DE ATM",
+    },
+    
+    "CUALES SON  LOS REQUISITOS PARA LA ASISTENCIA TRAMITE DE VISACION DE MINUTAS EN COCHABAMBA": {content: "LOS REQUISITOS SON DERECHO DE ADMISION (DA99) 22.00 BOLIVIANOS.LLENADO DE DECLARACION JURADA, RECABAR EN LA PAGINA WEB HTTP.//ATM.COCHABAMBA.BO.FOTOCOPIA DE CARNET DE IDENTIDAD DE LAS PARTES INTERVINIENTES.ORIGINAL Y FOTOCOPIA DEL TITULO DE PROPIEDAD Y FOLIO REAL ACTUALIZADO.FOTOCOPIA DE REGISTRO CATASTRAL O CERTIFICADO DE REGISTRO CATASTRAL.FOTOCOPIA DEL PLANO DEL LOTE O CONSTRUCCION.ORIGINAL DEL DOCUMENTO OBJETO DE TRANSFERENCIA.ORIGINAL Y FOTOCOPIA DEL PODER DE REPRESENTACION LEGAL (SI CORRESPONDE).IMPUESTOS AL DIA (FOTOCOPIA ULTIMA GESTION) NO CONSIGNAR MORA TRIBUTARIA EN EL INMUEBLE, OBJETO DE TRANSFERENCIA A LA FECHA DE REGISTRO.",
+    },
+    
+    "QUE ES EL TRAMITE DE APERTURA DE CASOS SIREC (RUAT) EN COCHABAMBA": {content: "CONSISTE EN DAR SOLUCION A CASOS CON OBSERVACIONES EN EL SISTEMA RUAT, SOBRE LAS SUPERFICIES DEL PAGO IMPOSITIVO. SOLUCIONES COORDINADAS CON EL SOPORTE RUAT NACIONAL.",
+    },
+    
+    "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE APERTURA DE CASOS SIREC (RUAT) EN COCHABAMBA": {content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO.",
+    },
+
+    "CUANTO ES LA DURACION DEL TRAMITE DE APERTURA DE CASOS SIREC (RUAT) EN COCHABAMBA": {content: "10 DIAS HABILES.",
+    },
+    
+    "CUALES SON LOS REQUISITOS PARA EL TRAMITE DE APERTURA DE CASOS SIREC (RUAT) EN COCHABAMBA.": {content: "LOS REQUISITOS SONPROFORMA CON ANTECEDENTES Y PROBLEMA DEL CASO.CERTIFICADO DE ESTABILIDAD ESTRUCTURAL( OPCIONAL) SOLO CUANDO SE TRATE DE REGULARIZACIONES O AMPLIACION DE PERMISO.",
+    },
+    
+    "QUE ES EL TRAMITE DE BAJAS DE CODIGOS (MATRICIALES, FRACCIONAMIENTOS, DUPLICADOS, MAL EMPADRONADOS)  EN COCHABAMBA": {content: "(MATRICIALES, FRACCIONAMIENTOS, DUPLICADOS, Y MAL EMPADRONADOS. ES EL ANALISIS TECNICO Y LEGAL PARA DAR SOLUCIONES A MATRICES QUE SIGUEN GENERANDO IMPUESTOS, FRACCIONAMIENTOS QUE NO SE DESLINDAN DEL NUMERO MATRIZ, NUMEROS DE INMUEBLES DUPLICADOS QUE LE GENERAN DOBLE TRIBUTACION, Y MAL EMPADRONADOS POR ERRORES TECNICOS POR INSUFICIENCIA DE DATOS.",
+    },
+    
+    "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE BAJAS DE CODIGOS (MATRICIALES, FRACCIONAMIENTOS, DUPLICADOS, MAL EMPADRONADOS)  EN COCHABAMBA": {content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO.",
+    },
+    
+    "CUANTO ES LA DURACION DEL TRAMITE DE BAJAS DE CODIGOS (MATRICIALES, FRACCIONAMIENTOS, DUPLICADOS, MAL EMPADRONADOS)  EN COCHABAMBA": {content: "15 DIAS HABILES.",
+    },
+    
+    "CUALES SON LOS REQUISITOS PARA EL TRAMITE DE BAJAS DE CODIGOS (MATRICIALES, FRACCIONAMIENTOS, DUPLICADOS, MAL EMPADRONADOS) EN COCHABAMBA": {content: "LOS REQUISITOS SON SOLICITUD DEL CONTRIBUYENTE; LEGAL TRIBUTARIO, FISCALIZACION.RESOLUCION TECNICA ADMINISTRATIVA PARA ANULAR MIXTAS.REGISTRO CATASTRAL.FOLIO REAL (FOTOCOPIA SIMPLE).",
+    },
+     
+    "QUE ES EL TRAMITE DE AVALUO CATASTRAL PARA REGISTRO DE PROPIEDAD HORIZONTAL  EN DERECHOS REALES EN COCHABAMBA": {content: "EN ESTE TRAMITE SE DEMUESTRA EL VALOR CATASTRAL DEL PREDIO Y CONSTRUCCION DEL INMUEBLE PARA DISTINTOS TIPOS DE TRAMITES EN DDRR.",
+    },
+    "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE AVALUO CATASTRAL PARA REGISTRO DE PROPIEDAD HORIZONTAL  EN DERECHOS REALES EN COCHABAMBA": {content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO.",
+    },
+    
+    "CUANTO ES LA DURACION DEL TRAMITE DE AVALUO CATASTRAL PARA REGISTRO DE PROPIEDAD HORIZONTAL  EN DERECHOS REALES EN COCHABAMBA": {content: "1 DIA HABIL.",
+    },
+    
+    "CUALES SON LOS REQUISITOS PARA EL TRAMITE DE AVALUO CATASTRAL PARA REGISTRO DE PH EN DDRR EN COCHABAMBA": {content: "LOS REQUISITOS SON SOLICITUD DIRIGIDA AL ALCALDE.RESOLUCION TECNICA (FOTOCOPIA SIMPLE).REGISTRO CATASTRAL (FOTOCOPIA SIMPLE).TITULO DE PROPIEDAD MAS FOLIO REAL (FOTOCOPIA SIMPLE).FOTOCOPIA PLANOS DE CONSTRUCCION Y/O ADECUACION DE PROPIEDAD HORIZONTAL.FORMULARIO DE DECLARACION JURADA DE ACTUALIZACION DE DATOS TECNICOS.FORMULARIO UNICO DE RECAUDACIONES (FUR DA46).IMPUESTO (FOTOCOPIA 5 ULTIMAS GESTIONES).PLANOS DE LOTE APROBADOS.BOLETA DE LIQUIDACION.",
+    },
+    
+    
+    "QUE ES EL TRAMITE DE DESGLOSE DE IMPUESTOS EN COCHABAMBA": {content: "ES EL DESGLOSE DE SUPERFICIES EN PROPIEDADES HORIZONTALES, DONDE INCLUYE EL AREA PRIVADA COMO EL AREA COMUN DE LAS CONSTRUCCIONES.",
+    },
+    
+    "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE DESGLOSE DE IMPUESTOS EN COCHABAMBA": {content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO.",
+    },
+    
+    "CUANTO ES LA DURACION DEL TRAMITE DE DESGLOSE DE IMPUESTOS EN COCHABAMBA": {content: "1 DIA HABIL.",
+    },
+    
+    "CUALES SON LOS REQUISITOS PARA EL DESGLOSE DE IMPUESTOS EN COCHABAMBA": {content: "LOS REQUISITOS SON RESOLUCION ADMINISTRATIVA MUNICIPAL DE APROBACION DE PROPIEDAD HORIZONTAL (FOTOCOPIA LEGALIZADA).IMPUESTOS (FOTOCOPIA ULTIMA GESTION).FOLIO REAL (FOTOCOPIA SIMPLE).",
+    },
+     
+    "QUE ES EL TRAMITE DE AVALUO CATASTRAL A SOLICITUD DE PARTE (BASE CIERTA)  EN COCHABAMBA": {content: "ES LA ACTUALIZACION REAL DE LOS DATOS TECNICOS PARA SU RESPECTIVO PAGO IMPOSITIVO, CON VERIFICACION EN SITIO.",
+    },
+    
+    "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE AVALUO CATASTRAL A SOLICITUD DE PARTE (BASE CIERTA)  EN COCHABAMBA": {content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO.",
+    },
+    
+    "CUANTO ES LA DURACION DEL TRAMITE DE AVALUO CATASTRAL A SOLICITUD DE PARTE (BASE CIERTA)  EN COCHABAMBA": {content: "3 DIAS HABILES.",
+    },
+    
+    "CUALES SON LOS REQUISITOS PARA EL TRAMITE DE AVALUO CATASTRAL A SOLICITUD DE PARTE (BASE CIERTA) EN COCHABAMBA": {content: "LOS REQUISITOS SON DECLARACION JURADA REALIZADA POR EL ARQUITECTO EXTERNO.FOLIO REAL (FOTOCOPIA SIMPLE).REGISTRO CATASTRAL (FOTOCOPIA SIMPLE).IMPUESTOS (FOTOCOPIA ULTIMA GESTION).FOTOGRAFIAS DE RESPALDO DE LA CONSTRUCCION .PLANO DE LOTE APROBADO.PLANOS DE CONSTRUCCION APROBADOS.",
+    },
+     
+    "QUE ES EL TRAMITE DE ASIGNACION O ACTUALIZACION DE CODIGOS CATASTRALES (FUSION O FRACCIONAMIENTO) EN COCHABAMBA": {content: "ES LA DETERMINACION DE UBICACION DE UN PREDIO EN CARTOGRAFIA, RESULTADO DE LAS NUEVAS APROBACIONES DE PLANOS.",
+    },
+    
+    "CUAL ES LA UNIDAD RESPONSABLE EL TRAMITE DE ASIGNACION O ACTUALIZACION DE CODIGOS CATASTRALES (FUSION O FRACCIONAMIENTO) EN COCHABAMBA": {content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO.",
+    },
+    
+    "CUANTO ES LA DURACION DEL TRAMITE DE ASIGNACION O ACTUALIZACION DE CODIGOS CATASTRALES (FUSION O FRACCIONAMIENTO) EN COCHABAMBA": {content: "INMEDIATO.",
+    },
+    
+    
+    "CUALES SON LOS REQUISITOS PARA LA ASIGNACION O ACTUALIZACION DE CODIGOS CATASTRALES (FUSION O FRACCIONAMIENTO) EN COCHABAMBA": {content: "LOS REQUISITOS SON REGISTRO CATASTRAL AL DIA DE LA MATRIZ (ASIENTOS).COPIA DE PLANO APROBADO DE FUSION O DIVISION.FOLIO REAL (FOTOCOPIA SIMPLE).IMPUESTOS (FOTOCOPIA ULTIMA GESTION).",
+    },
+    
+    "QUE ES EL TRAMITE DE ASIGNACION O ACTUALIZACION DE CODIGOS CATASTRALES (NUEVOS SECTORIALES Y PLANIMETRIAS) EN COCHABAMBA": {content: "(NUEVOS SECTORIALES Y PLANIMETRIAS). ES LA DETERMINACION DE UBICACION DE UN PREDIO EN CARTOGRAFIA, RESULTADO DE LAS NUEVAS APROBACIONES DE LOS SECTORIALES Y PLANIMETRIAS EN COORDINACION CON ORDENAMIENTO TERRITORIAL.",
+    },
+    
+    "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE ASIGNACION O ACTUALIZACION DE CODIGOS CATASTRALES (NUEVOS SECTORIALES Y PLANIMETRIAS) EN COCHABAMBA": {content: "LA DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO.",
+    },
+    
+    "CUANTO ES LA DURACION DEL TRAMITE DE ASIGNACION O ACTUALIZACION DE CODIGOS CATASTRALES (NUEVOS SECTORIALES Y PLANIMETRIAS) EN COCHABAMBA": {content: "5 DIAS HABILES.",
+    },
+    
+    "CUALES SON LOS REQUISITOS PARA LA ASIGNACION O ACTUALIZACION DE CODIGOS CATASTRALES (NUEVOS SECTORIALES Y PLANIMETRIAS) EN COCHABAMBA": {content: "LOS REQUISITOS SON COPIA DEL PLANO SECTORIAL.COPIA DEL PLANO EN DIGITAL.FOLIO REAL.IMPUESTOS (FOTOCOPIA ULTIMA GESTION).",
+    },
+    
+    "QUE ES EL TRAMITE DE ASIGNACION O ACTUALIZACION DE CODIGOS CATASTRALES (ACTUALIZACION) EN COCHABAMBA": {content: "ES EL AJUSTE SEGUN PLANOS APROBADOS, QUE DIFIEREN DE LOS FISICO CONSOLIDADO Y LA CORRECCION DE ALGUN TIPO DE INCONSISTENCIA.",
+    },
+    
+    "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE ASIGNACION O ACTUALIZACION DE CODIGOS CATASTRALES (ACTUALIZACION) EN COCHABAMBA": {content: "LA DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO.",
+    },
+    
+    "CUANTO ES LA DURACION DEL TRAMITE DE ASIGNACION O ACTUALIZACION DE CODIGOS CATASTRALES (ACTUALIZACION) EN COCHABAMBA": {content: "INMEDIATO.",
+    },
+    
+    "CUALES SON LOS REQUISITOS PARA LA ASIGNACION O ACTUALIZACION DE CODIGOS CATASTRALES (ACTUALIZACION) EN COCHABAMBA": {content: "LOS REQUISITOS SON COPIA DE PLANO (IDENTIFICAR PREDIO).FOLIO REAL (FOTOCOPIA SIMPLE).IMPUESTOS (FOTOCOPIA ULTIMA GESTION).",
+    },
+     
+    "QUE ES EL TRAMITE DE ASIGNACION O ACTUALIZACION DE CODIGOS CATASTRALES (GENERACION DE MATRICES) EN COCHABAMBA ": {content: "ES LA DETERMINACION DE POLIGONOS EN CARTOGRAFIA DE PREDIOS DE MAYOR SUPERFICIE, PARA DAR CURSO AL PAGO DE IMPUESTOS Y TRAMITES ESPECIFICOS DE MI PLANO.",
+    },
+    
+    "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE ASIGNACION O ACTUALIZACION DE CODIGOS CATASTRALES (GENERACION DE MATRICES) EN COCHABAMBA": {content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO.",
+    },
+    
+    "CUANTO ES LA DURACION DEL TRAMITE DE ASIGNACION O ACTUALIZACION DE CODIGOS CATASTRALES (GENERACION DE MATRICES) EN COCHABAMBA": {content: "INMEDIATO.",
+    },
+    
+    
+    "CUALES SON LOS REQUISITOS PARA LA ASIGNACION O ACTUALIZACION DE CODIGOS CATASTRALES (GENERACION DE MATRICES) EN COCHABAMBA": {content: "LOS REQUISITOS SONCOPIA PLANO GEOREFERENCIADO.TITULO DE PROPIEDAD MAS FOLIO REAL (FOTOCOPIA SIMPLE).IMPUESTOS.TITULO EJECUTORIAL.",
+    },
+    
+    "QUE ES EL TRAMITE DE ASIGNACION DE GEO CODIGOS EN COCHABAMBA": {content: "SON POLIGONOS QUE SE ENCUENTRAN FUERA DE LA MANCHA URBANA.",
+    },
+    
+    "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE ASIGNACION DE GEO CODIGOS EN COCHABAMBA": {content: "LA DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO.",
+    },
+    "CUANTO ES LA DURACION DEL TRAMITE DE ASIGNACION DE GEO CODIGOS EN COCHABAMBA": {content: "INMEDIATO.",
+    },
+    
+    "CUALES SON LOS REQUISITOS PARA LA ASIGNACION DE GEO CODIGOS EN COCHABAMBA": {content: "LOS REQUISITOS SON COPIA PLANO GEOREFERENCIADO.TITULO DE PROPIEDAD MAS FOLIO REAL (FOTOCOPIA SIMPLE).IMPUESTOS.TITULO EJECUTORIAL.",
+    },
+    "QUE ES EL TRAMITE DE ASIGNACION O ACTUALIZACION DE CODIGOS CATASTRALES (LEY 204 MI PLANO) EN COCHABAMBA": {content: "ES LA DETERMINACION DE UBICACION DE UN PREDIO EN CARTOGRAFIA, A LA PRESENTACION DE UN PLANO REFERENCIAL.",
+    },
+    
+    "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE ASIGNACION O ACTUALIZACION DE CODIGOS CATASTRALES (LEY 204 MI PLANO) EN COCHABAMBA": {content: "LA DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO.",
+    },
+    
+    "CUANTO ES LA DURACION DEL TRAMITE DE ASIGNACION O ACTUALIZACION DE CODIGOS CATASTRALES (LEY 204 MI PLANO) EN COCHABAMBA": {content:"INMEDIATO.",
+    },
+    
+    "CUALES SON LOS REQUISITOS PARA LA ASIGNACION O ACTUALIZACION DE CODIGOS CATASTRALES (LEY 204 MI PLANO) EN COCHABAMBA": {content: "LOS REQUISITOS SON COPIA SIMPLE DEL PLANO REFERENCIAL.TITULO DE PROPIEDAD MAS FOLIO REAL (FOTOCOPIA SIMPLE).IMPUESTOS (FOTOCOPIA ULTIMA GESTION).",
+    },
+    
+    "QUE ES EL TRAMITE DE APROBACION DE PLANO DE DIVISION EN PROPIEDAD HORIZONTAL EN COCHABAMBA": {content: "LA APROBACION DEL PLANO DE DIVISION EN PROPIEDAD HORIZONTAL ES EL PROCESO ADMINISTRATIVO POR EL CUAL EL O LOS PROPIETARIOS DE UN BIEN INMUEBLE, ADECUAN EL MISMO AL REGIMEN DE PROPIEDAD HORIZONTAL DE ACUERDO CON LAS DISPOSICIONES EMANADAS DE LA LEY NACIONAL DE PROPIEDAD HORIZONTAL DEL 30 DE DICIEMBRE DE 1949, EL CODIGO CIVIL Y LA NORMATIVA MUNICIPAL EN VIGENCIA.",
+    },
+    
+    "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE APROBACION DE PLANO DE DIVISION EN PROPIEDAD HORIZONTAL EN COCHABAMBA": {content: "DEPARTAMENTO DE ADMINISTRACION URBANA-DIRECCION DE URBANISMO.",
+    },
+    "CUANTO ES LA DURACION DEL TRAMITE DE APROBACION DE PLANO DE DIVISION EN PROPIEDAD HORIZONTAL EN COCHABAMBA": {content:"15 DIAS HABILES.",
+    },
+    "QUE OBTENGO AL FINALIZAR EL TRAMITE  DE APROBACION DE PLANO DE DIVISION EN PROPIEDAD HORIZONTAL  EN COCHABAMBA": {content: "RESOLUCION ADMINISTRATIVA MUNICIPAL PLANO APROBADO DE DIVISION EN PROPIEDAD HORIZONTAL.",
+    },
+    
+    "QUE ES EL TRAMITE DE REGISTRO CATASTRAL EN COCHABAMBA": {content: "ES EL REGISTRO DE LA INFORMACION DEL BIEN INMUEBLE TECNICO Y LEGAL, YA SEA EN LA CREACION DE UNA NUEVA UNIDAD CATASTRAL O CUANDO EXISTAN CAMBIOS EN EL ESTADO FISICO DEL INMUEBLE, PROPIETARIOS, NUEVAS CONSTRUCCIONES O MEJORA DE LAS MISMAS.",
+    },
+
+    "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE REGISTRO CATASTRAL EN COCHABAMBA": {content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO.",
+    },
+
+    "CUANTO ES LA DURACION DEL TRAMITE DE REGISTRO CATASTRAL EN COCHABAMBA": {content: "10 DIAS CALENDARIO APROXIMADAMENTE, EN CASO DE NO TENER OBSERVACION EN LOS REQUISITOS.",
+    },
+
+
+    "CUALES SON LOS REQUISITOS PARA EL REGISTRO CATASTRAL EN COCHABAMBA": {content: "LOS REQUISITOS SON DERECHO DE ADMISION (FORMULARIO UNICO DE RECAUDACIONES FUR DA40) - 32.00 BOLIVIANOS.MEMORIAL DIRIGIDO AL HONORABLE ALCALDE MUNICIPAL (ORIGINAL Y FOTOCOPIA SIMPLE) O FORMULARIO DE SOLICITUD DE TRAMITES CATASTRALES.TITULO DE PROPIEDAD CON SU FOLIO REAL (FOTOCOPIA LEGALIZADA).PLANO DEL LOTE (FOTOCOPIA LEGALIZADA).PLANO DE UNIDAD DE PROPIEDAD HORIZONTAL (SI CORRESPONDE) (FOTOCOPIA LEGALIZADA).RESOLUCION ADMINISTRATIVA MUNICIPAL DE APROBACION DE PROPIEDAD HORIZONTAL (SI CORRESPONDE) (FOTOCOPIA LEGALIZADA).IMPUESTOS DE LAS ULTIMAS 5 GESTIONES (FOTOCOPIA SIMPLE).CARNET DE IDENTIDAD DE PROPIETARIOS (FOTOCOPIA SIMPLE).ULTIMO REGISTRO CATASTRAL (FOTOCOPIA SIMPLE).",
+    },
+
+
+    "QUE ES EL TRAMITE DE REGISTRO CATASTRAL DE ADECUACION A PROPIEDAD HORIZONTAL EN COCHABAMBA": {content: "ES EL DOCUMENTO DE UNA O VARIAS PERSONAS NATURALES O JURIDICAS, QUE REPRESENTA SU PROPIEDAD SOBRE UN BIEN INMUEBLE A TRAVES DE LA ASIGNACION DE UN CODIGO CATASTRAL. CUENTA CON INFORMACION LEGAL Y TECNICA, CUANDO EXISTE UN CAMBIO EN EL PREDIO AL REGIMEN DE PROPIEDAD HORIZONTAL, PROPORCIONANDO NUEVOS CODIGOS CATASTRALES Y EL EMPADRONAMIENTO AL REGISTRO UNICO PARA ADMINISTRACION TRIBUTARIA MUNICIPAL DE LAS NUEVAS UNIDADES CATASTRALES.",
+    },
+
+    "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE REGISTRO CATASTRAL DE ADECUACION A PROPIEDAD HORIZONTAL EN COCHABAMBA": {content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO.",
+    },
+
+    "CUANTO ES LA DURACION DEL TRAMITE DE REGISTRO CATASTRAL DE ADECUACION A PROPIEDAD HORIZONTAL EN COCHABAMBA": {content: "15 DIAS CALENDARIO APROXIMADAMENTE, EN CASO DE NO TENER OBSERVACION EN LOS REQUISITOS.",
+    },
+
+    "CUALES SON LOS REQUISITOS PARA EL REGISTRO CATASTRAL DE ADECUACION A PROPIEDAD HORIZONTAL EN COCHABAMBA": {content: "LOS REQUISITOS SON DERECHO DE ADMISION (FORMULARIO UNICO DE RECAUDACIONES FUR DA42) - 50.00 BOLIVIANOS.MEMORIAL DIRIGIDO AL HONORABLE ALCALDE MUNICIPAL (ORIGINAL Y FOTOCOPIA SIMPLE) O FORMULARIO DE SOLICITUD DE TRAMITES CATASTRALES.TITULO DE ADECUACION A PROPIEDAD HORIZONTAL CON SUS RESPECTIVOS FOLIOS REALES (FOTOCOPIA LEGALIZADA).TITULO DE PROPIEDAD CON SU RESPECTIVO FOLIO REAL (FOTOCOPIA LEGALIZADA).RESOLUCION EJECUTIVA DE APROBACION DE ADECUACION DE PROPIEDAD HORIZONTAL (FOTOCOPIA LEGALIZADA).PLANO DE ADECUACION A PROPIEDAD HORIZONTAL (FOTOCOPIA LEGALIZADA).PLANO DE LOTE O URBANIZACION (FOTOCOPIA LEGALIZADA).IMPUESTOS DE LAS ULTIMAS 5 GESTIONES (FOTOCOPIA SIMPLE).CARNET DE IDENTIDAD DE LOS PROPIETARIOS (FOTOCOPIA SIMPLE).ULTIMO REGISTRO CATASTRAL (FOTOCOPIA SIMPLE).FOLDER.",
+    },
+
+    "QUE ES EL TRAMITE DE LEGALIZACION DE PLANOS (LOTE, CONSTRUCCION O UNIDAD DE PROPIEDAD HORIZONTAL EN COCHABAMBA": {content: "EL TRAMITE CONSISTE EN LA OBTENCION DE COPIAS LEGALIZADAS DE LOS PLANOS QUE SE ENCUENTRAN CUSTODIADOS EN ARCHIVO DE PLANOS, DE UN PREDIO EN ESPECIFICO.",
+    },
+
+    "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE LEGALIZACION DE PLANOS (LOTE, CONSTRUCCION O UNIDAD DE PROPIEDAD HORIZONTAL EN COCHABAMBA": {content: "ARCHIVO DE PLANOS.",
+    },
+
+    "CUANTO ES LA DURACION DEL TRAMITE DE LEGALIZACION DE PLANOS (LOTE, CONSTRUCCION O UNIDAD DE PROPIEDAD HORIZONTAL EN COCHABAMBA": {content: "1 DIA HABIL.",
+    },
+
+    "CUALES SON LOS REQUISITOS PARA LA LEGALIZACION DE PLANOS (LOTE, CONSTRUCCION O UNIDAD DE PROPIEDAD HORIZONTAL EN COCHABAMBA": {content: "LOS REQUISITOS SON  DERECHO DE ADMISION (FORMULARIO UNICO DE RECAUDACIONES FUR DA42) - 69.00 BOLIVIANOS.TITULO DE PROPIEDAD CON SU FOLIO REAL (FOTOCOPIA LEGALIZADA).IMPUESTOS DE LAS ULTIMAS 5 GESTIONES (FOTOCOPIA SIMPLE).CARNET DE IDENTIDAD DE LOS PROPIETARIOS (FOTOCOPIA SIMPLE).TIMBRE MUNICIPAL DE 10.00 BOLIVIANOS.",
+    },
+
+    "QUE ES EL TRAMITE DE LEGALIZACION DE PLANOS PH O URBANIZACION (LAMINA ENTERA) EN COCHABAMBA": {content: "EL TRAMITE CONSISTE EN LA OBTENCION DE COPIAS LEGALIZADAS DE LAS LAMINAS ENTERAS DE LOS PLANOS DE URBANIZACIONES O PROPIEDADES HORIZONTALES QUE SE ENCUENTRAN CUSTODIADOS EN ARCHIVO DE PLANOS, PREVIA AUTORIZACION DE LA OTB O EL DIRECTORIO DE LA PROPIEDAD HORIZONTAL.",
+    },
+    "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE LEGALIZACION DE PLANOS PH O URBANIZACION (LAMINA ENTERA) EN COCHABAMBA": {content: "ARCHIVO DE PLANOS.",
+    },
+
+    "CUANTO ES LA DURACION DEL TRAMITE DE LEGALIZACION DE PLANOS PH O URBANIZACION (LAMINA ENTERA) EN COCHABAMBA": {content: "1 DIA HABIL.",
+    },
+
+    "CUALES SON LOS REQUISITOS PARA LA LEGALIZACION DE PLANOS PH O URBANIZACION. (LAMINA ENTERA) EN COCHABAMBA": {content: "LOS REQUISITOS SON TITULO DE PROPIEDAD CON SU FOLIO REAL (FOTOCOPIA LEGALIZADA).IMPUESTOS DE LAS ULTIMAS 5 GESTIONES (FOTOCOPIA SIMPLE).CARNET DE IDENTIDAD DE LOS PROPIETARIOS (FOTOCOPIA SIMPLE).5 TIMBRES MUNICIPALES DE 10 BOLIVIANOS.AUTORIZACION DE LA OTB O DEL DIRECTORIO DE LA PROPIEDAD HORIZONTAL.",
+    },
+
+    "QUE ES EL TRAMITE DE PRE REVISION EN COCHABAMBA": {content: "EL TRAMITE CONSISTE EN LA OBTENCION DE COPIAS LEGALIZADAS DE LAS LAMINAS ENTERAS DE LOS PLANOS DE URBANIZACIONES O PROPIEDADES HORIZONTALES QUE SE ENCUENTRAN CUSTODIADOS EN ARCHIVO DE PLANOS, PREVIA AUTORIZACION DE LA OTB O EL DIRECTORIO DE LA PROPIEDAD HORIZONTAL.",
+    },
+
+    "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE PRE REVISION EN COCHABAMBA": {content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO.",
+    },
+
+    "CUANTO ES LA DURACION DEL TRAMITE DE PRE REVISION EN COCHABAMBA": {content: "1 DIA HABIL.",
+    },
+
+    "CUALES SON LOS REQUISITOS PARA LA PRE REVISION EN COCHABAMBA": {content: "LOS REQUISITOS SON DERECHO DE ADMISION DA41 - 22.00 BOLIVIANOS.TITULO DE PROPIEDAD CON SU FOLIO REAL (FOTOCOPIA LEGALIZADA).PLANO DEL LOTE (FOTOCOPIA LEGALIZADA).PLANO DE UNIDAD DE PROPIEDAD HORIZONTAL (SI CORRESPONDE) (FOTOCOPIA LEGALIZADA).RESOLUCION ADMINISTRATIVA MUNICIPAL DE APROBACION DE PROPIEDAD HORIZONTAL (SI CORRESPONDE) (FOTOCOPIA LEGALIZADA).IMPUESTOS DE LAS ULTIMAS 5 GESTIONES (FOTOCOPIA SIMPLE).CARNET DE IDENTIDAD DE LOS PROPIETARIOS (FOTOCOPIA SIMPLE).",
+    },
+
+    "QUE ES LA TRANSCRIPCION EN COCHABAMBA": {content: "ES EL PROCEDIMIENTO QUE PERMITE LA TRANSCRIPCION DE UN REGISTRO CATASTRAL ANTIGUO ENTREGADO POR EL INTERESADO DENTRO EL SISTEMA DE GESTION CATASTRAL, ACOMPANADA DE LA DOCUMENTACION DE RESPALDO",
+    },
+
+    "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE TRANSCRIPCION EN COCHABAMBA": {content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO",
+    },
+
+    "CUANTO ES LA DURACION DEL TRAMITE DE TRANSCRIPCION EN COCHABAMBA": {content: "10 DIAS HABILES.",
+    },
+
+    "CUALES SON LOS REQUISITOS DEL TRAMITE DE TRANSCRIPCION EN COCHABAMBA.":{content: "LOS REQUISITOS SON  DERECHO DE ADMISION DA41 - 22.00 BOLIVIANOS. TITULO DE PROPIEDAD CON SU FOLIO REAL (FOTOCOPIA LEGALIZADA).PLANO DEL LOTE (FOTOCOPIA LEGALIZADA).PLANO DE UNIDAD DE PROPIEDAD HORIZONTAL (SI CORRESPONDE) (FOTOCOPIA LEGALIZADA).RESOLUCION ADMINISTRATIVA MUNICIPAL DE APROBACION DE PROPIEDAD HORIZONTAL (SI CORRESPONDE) (FOTOCOPIA LEGALIZADA). REGISTRO CATASTRAL ORIGINAL.IMPUESTOS DE LAS ULTIMAS 5 GESTIONES (FOTOCOPIA SIMPLE).CARNET DE IDENTIDAD DE LOS PROPIETARIOS (FOTOCOPIA SIMPLE).",
+    },
+
+
+    "QUE ES LA ACTUALIZACION Y MODIFICACION DE DATOS TECNICOS EN SISTEMA RUAT EN COCHABAMBA":{content: "ES UNA ACTUALIZACION REALIZADA CON UN AVALUO DE DECLARACION JURADA PARA LA MODIFICACION DE DATOS TECNICOS,PREVIA REVISION DIGITAL EN LA BASE DE DATOS DE CATASTRO Y USO DE HERRAMIENTAS INFORMATICAS.",
+    },
+
+    "CUAL ES LA UNIDAD RESPONSABLE DE LA ACTUALIZACION Y MODIFICACION DE DATOS TECNICOS EN SISTEMA RUAT EN COCHABAMBA": {content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO",
+    },
+
+    "CUANTO ES LA DURACION DEL TRAMITE DE ACTUALIZACION Y MODIFICACION DE DATOS TECNICOS EN SISTEMA RUAT EN COCHABAMBA": {content: "1 DIA HABIL.",
+    },
+
+    "CUALES SON LOS REQUISITOS PARA LA ACTUALIZACION Y MODIFICACION DE DATOS TECNICOS EN SISTEMA RUAT EN COCHABAMBA": {content: "LOS REQUISITOS SON TITULO DE PROPIEDAD MAS FOLIO REAL (FOTOCOPIA SIMPLE).COPIA DE PLANO DE LOTE O PH. FOTOCOPIA DE CARNET DE IDENTIDAD. REGISTRO CATASTRAL (OPCIONAL). IMPUESTOS (BOLETA DE LAS 5 ULTIMAS GESTIONES).",
+    },
+
+    "QUE ES EL DESGLOSE DE IMPUESTOS EN COCHABAMBA": {content: "ES EL DESGLOSE DE SUPERFICIES EN PROPIEDADES HORIZONTALES, DONDE INCLUYE EL AREA PRIVADA COMO EL AREA COMUN DE LAS CONSTRUCCIONES.",
+    },
+
+    "CUAL ES LA UNIDAD RESPONSABLE DEL DESGLOSE DE IMPUESTOS EN COCHABAMBA": {content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO.",
+    },
+
+    "CUANTO ES LA DURACION DEL TRAMITE DE DESGLOSE DE IMPUESTOS EN COCHABAMBA": {content: "1 DIA HABIL.",
+    },
+
+    "CUALES SON LOS REQUISITOS PARA EL DESGLOSE DE IMPUESTOS EN COCHABAMBA": {content: "LOS REQUISITOS SON RESOLUCION ADMINISTRATIVA MUNICIPAL DE APROBACION DE PROPIEDAD HORIZONTAL (FOTOCOPIA LEGALIZADA). IMPUESTOS (FOTOCOPIA ULTIMA GESTION).FOLIO REAL (FOTOCOPIA SIMPLE).",
+    },
+
+
+    "¿QUE ES LA CRAM EN COCHABAMBA": {content: "ES EL CERTIFICADO DE REGISTRO AMBIENTAL MUNICIPAL QUE TIENE COMO FINALIDAD LA IMPLEMENTACION DE CONTROL Y VIGILANCIA AMBIENTAL DE ACTIVIDADES ECONOMICAS COMO PARTE DE LA GESTION AMBIENTAL MUNICIPAL.",
+    },
+
+    "CUAL ES LA UNIDAD RESPONSABLE PARA EL TRAMITE MEDIOAMBIENTAL EN COCHABAMBA": {content: "EL DEPARTAMENTO DE GESTION ATMOSFERICA, CONTROL Y SEGUIMIENTO AMBIENTAL, DEPENDIENTE DE LA SECRETARIA DE PLANIFICACION Y MEDIO AMBIENTE.",
+    },
+
+    "CUANTO ES LA DURACION DEL TRAMITE MEDIOAMBIENTAL EN COCHABAMBA": {content: "ELTRAMITE DURA 10 DIAS HABILES.",
+    },
+
+    "EL CERTIFICADO DE REGISTRO AMBIENTAL MUNICIPAL (CRAM) SUSTITUYE A UNA LICENCIA AMBIENTAL EN COCHABAMBA": {content: "NO, EL CERTIFICADO DE REGISTRO AMBIENTAL MUNICIPAL NO SUSTITUYE A UNA LICENCIA AMBIENTAL, DE ACUERDO A LA LEY NUMERO 1333 DE MEDIO AMBIENTE.",
+    },
+
+    "CUALES SON LOS REQUISITOS UN TRAMITE MEDIOAMBIENTAL EN COCHABAMBA": {content: "LOS REQUISITOS SON NOTA ESCRITA, DIRIGIDA A LA SECRETARIA DE PLANIFICACION Y MEDIO AMBIENTE, SOLICITANDO LA EMISION DEL CERTIFICADO DE REGISTRO AMBIENTAL MUNICIPAL .COMPROBANTE DE DEPOSITO BANCARIO POR EL PAGO DE ADMISION DE TRAMITE (SEGUN CATEGORIA: CLASE 1 BOLIVIANOS 150, CLASE 2  BOLIVIANOS 400) (PARA REALIZAR EL DEPOSITO, EL REPRESENTANTE LEGAL DEBERA VERIFICAR EL RUBRO QUE CORRESPONDA A SU ACTIVIDAD ECONOMICA, SEGUN EL ANEXO 3 DEL DECRETO MUNICIPAL NUMERO 146 DEL 19).FORMULARIO AMBIENTAL MUNICIPAL (FAM) DEBIDAMENTE LLENADO ACOMPANANDO LAS FOTOCOPIAS DE CEDULA DE IDENTIDAD DEL PROPIETARIO O REPRESENTANTE LEGAL, PODER DE REPRESENTANTE LEGAL EN CASO DE PERSONAS JURIDICASEL FORMULARIO AMBIENTAL MUNICIPAL, DEBERA SER PRESENTADO EN FISICO Y EN FORMATO DIGITAL (CD); EN FOLDER AMARILLO TAMANO OFICIO Y FOLIADO EN DOS EJEMPLARES, (UN EJEMPLAR SERA PARA CONSTANCIA DEL REPRESENTANTE LEGAL COMO CONSTANCIA DE PRESENTACION).",
+    },
+
+    "CUALES SON LOS REQUISITOS PARA LA RENOVACION DE LA CRAM EN COCHABAMBA": {content: "LOS REQUISITOS SON EL REPRESENTANTE LEGAL DEBERA REALIZAR LA RENOVACION CADA DOS ANOS. NOTA ESCRITA A LA SECRETARIA DE PLANIFICACION Y MEDIO AMBIENTE CERTIFICADO DE REGISTRO AMBIENTAL ORIGINAL FOTOCOPIA DE CARNET DE IDENTIDAD FOTOCOPIA DE LICENCIA DE FUNCIONAMIENTO COMPROBANTE DE PAGO SEGUN CLASE 1  BOLIVIANOS. 150, CLASE 2  BOLIVIANOS 400.",
+    },
+    
+    "¿QUE ES LA RAI EN COCHABAMBA": {content: "ES EL REGISTRO AMBIENTAL INDUSTRIAL, ES UN PROCESO DE REGULACION AMBIENTAL DE LAS ACTIVIDADES DEL SECTOR INDUSTRIAL MANUFACTURERO, EN CUMPLIMIENTO DE LAS DISPOSICIONES DEL REGLAMENTO AMBIENTAL PARA EL SECTOR MANUFACTURERO (RASIM).",
+    },
+
+    "CUAL ES LA UNIDAD RESPONSABLE DE LA RAI EN COCHABAMBA": {content: "DEPARTAMENTO DE GESTION ATMOSFERICA, CONTROL Y SEGUIMIENTO AMBIENTAL, DEPENDIENTE DE LA SECRETARIA DE PLANIFICACION Y MEDIO AMBIENTE.",
+    },
+
+    "CUANTO ES LA DURACION DEL TRAMITE DE LA RAI EN COCHABAMBA": {content: "EL TRAMITE LLEGA A DURAR 10 DIAS HABILES.",
+    },
+
+    "CUALES SON LOS REQUISITOS PARA LA CERTIFICACION": {content: "LOS REQUISITOS SON FOTOCOPIA DE CEDULA DE IDENTIDAD DEL PROPIETARIO O REPRESENTANTE LEGAL Y CONSULTOR AMBIENTAL. FOTOCOPIA DE CERTIFICADO RENCA VIGENTE DEL CONSULTOR AMBIENTAL. DECLARACION JURADA FIRMADA POR REPRESENTANTE LEGAL Y CONSULTOR. AMBIENTAL EN LOS 3 EJEMPLARES.CROQUIS DE UBICACION DE INDUSTRIA. COORDENADAS GEOREFERENCIALES EN UTM. FOTOCOPIAS A DETALLE DE LA INDUSTRIA. FOLIADO DE DOCUMENTOS AMBIENTALES.· FOTOCOPIAS DE PODER DE PODER REPRESENTANTE LEGAL EN CASO DE SOCIEDAD. OTROS DOCUMENTOS SEGUN RUBRO.",
+    },
+
+
+    "¿QUE ES UNA LICENCIA AMBIENTAL (L.A.) EN COCHABAMBA": {content: "ES EL DOCUMENTO JURIDICO ADMINISTRATIVO OTORGADO POR LA AUTORIDAD AMBIENTAL COMPETENTE AL REPRESENTANTE LEGAL QUE AVALA EL CUMPLIMIENTO DE TODOS LOS REQUISITOS PREVISTOS EN LA LEY Y REGLAMENTACION CORRESPONDIENTE EN LO QUE SE REFIERE A LOS PROCEDIMIENTOS DE PREVENCION Y CONTROL AMBIENTAL.",
+    },
+
+
+    "CUAL ES LA CLASIFICACION DE LOS ESPACIOS DEPORTIVOS EN COCHABAMBA": {content: "SU CLASIFICACION ES  CATEGORIA A CORRESPONDE A CENTROS DEPORTIVOS DE ALTA COMPETENCIA;  CUENTAN CON LAS CARACTERISTICAS ESTABLECIDAS POR NORMATIVA Y REGLAMENTACION INTERNACIONAL. CATEGORIA B CORRESPONDE A COMPLEJOS, CAMPOS Y COLISEOS DEPORTIVOS CERCADOS QUE ALBERGAN UNA O MAS DISCIPLINAS DEPORTIVAS. CATEGORIA C CORRESPONDE A CAMPOS DEPORTIVOS DE SUELO NATURAL O ARTIFICIAL QUE NO SE ENCUENTREN CERCADOS. CATEGORIA D CORRESPONDE A CANCHAS POLIFUNCIONALES QUE SON DE LIBRE ACCESO PARA EL USO DE LA POBLACION EN GENERAL.",
+    },
+
+    "QUIEN ADMINISTRA LOS ESCENARIOS DEPORTIVOS EN COCHABAMBA": {content: "LA ADMINISTRACION Y USO DE LOS ESCENARIOS DEPORTIVOS SE REALIZARA A TRAVES DE LA DIRECCION DE DEPORTES DEPENDIENTE DE LA SECRETARIA DE DESARROLLO HUMANO Y DEPORTES",
+    },
+
+    "CUALES SON LAS MODALIDADES DE USO DE LOS CAMPOS DEPORTIVOS EN COCHABAMBA": {content: "LAS MODALIDADES DE USO SON  CONVENIOS ES EL ACUERDO QUE CELEBRA EL GAMC, CON UNA PERSONA NATURAL O JURIDICA, NACIONAL O EXTRANJERA, SEA PUBLICA O PRIVADA, CON EL FIN DE QUE LAS PARTES ACORDANTES SE BRINDEN CONTRAPRESTACIONES RECIPROCAS PARA EL APOYO DE DIFERENTES ACTIVIDADES Y/O EVENTOS DE DESARROLLO HUMANO. CONCESION ADMINISTRATIVA. - ES LA RELACION JURIDICA CONTRACTUAL ENTRE EL GAMC Y UNA PERSONA NATURAL O JURIDICA, PARA EL USO DE UN BIEN DE DOMINIO PUBLICO O LA PRESTACION DE UN SERVICIO PUBLICO POR UN TIEMPO LIMITADO A CAMBIO DE UNA CONTRAPRESTACION. ARRENDAMIENTO. - ES LA RELACION JURIDICA CONTRACTUAL, POR LA CUAL EL GAMC, CONCEDE EL USO Y GOCE TEMPORAL DE UN BIEN O GRUPO DE BIENES A UNA PERSONA NATURAL O JURIDICA A CAMBIO DE UNA CONTRAPRESTACION ECONOMICA, CON LA OBLIGACION DE RESTITUIRLOS A LA ENTIDAD EN EL MISMO ESTADO.",
+    },
+
+
+    "DONDE HAGO MI TRAMITE DE VEHICULOS EN COCHABAMBA":{content:" DEPENDIENDO DEL TRAMITE, ESTE SE PUEDE REALIZAR EN MOVILIDAD URBANA SI ES RELACIONADO AL TRANSPORTE PUBLICO,EN RECAUDACIONES SI ESTA RELACIONADO A IMPUESTOS, TRANSFERENCIAS  O REGISTROS.",
+    },
+
     /*"QUE ES EL TRAMITE DE VISADO ANTEPROYECTO DE URBANIZACION": {
         content: "Es un trámite a realizar cuando se requiere urbanizar un terreno de su propiedad con superficie a 1300 m2, con carácter previo al diseño de los planos definitivos del proyecto de urbanización, debe solicitar al G.A.M.C. la visación de los planos del anteproyecto.",
     },
