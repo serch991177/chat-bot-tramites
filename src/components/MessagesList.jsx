@@ -144,7 +144,11 @@ export const MessagesList = ({visibleTypingBox,changeAnimation}) => {
             <div className="flex justify-center mt-4">
             <button
                 className="bg-green-500 px-10 py-1 text-white rounded-lg mr-4"
-                onClick={handleYesClick}
+                onClick={() =>{ 
+                  handleYesClick();
+                  stopMessage(message);
+                  }
+                }
             >
                 <p style={{
                     fontSize:"100px"
