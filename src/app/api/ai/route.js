@@ -1396,7 +1396,7 @@ export async function GET(req) {
     const cochabambaExample = cochabambaExamples[matchedQuestion];
     let combinedResponse;
 
-if (question.includes("ALCALDE")) {
+if (question.includes("ALCALDE") || question.includes("AUTORIDAD") || question.includes("CARGO") ) {
     console.log("funciona");
     try {
         const chatCompletion = await openai.chat.completions.create({
