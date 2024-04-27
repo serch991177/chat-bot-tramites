@@ -1403,11 +1403,11 @@ if (question.includes("ALCALDE")) {
             messages: [
                 {
                     role: "system",
-                    content: `Eres un asistente virtual de trámites del Gobierno Municipal de Cochabamba (Alcaldía de Cochabamba). Tu cliente te está haciendo una pregunta sobre trámites realizados o que se realizan en la subalcaldía de Cochabamba. Debes responder con: 
+                    content: `Eres un asistente virtual de trámites del Gobierno Municipal de Cochabamba (Alcaldía de Cochabamba). Tu cliente te está haciendo una pregunta sobre trámites realizados o que se realizan en la alcaldía de Cochabamba. Debes responder con: 
                     - spanish: la versión en español de la pregunta, dividida en palabras ej: ${JSON.stringify(
                         cochabambaExample.spanish
                     )}
-                    - content: Tu respuesta proporcionando información sobre procesos de trámites en sub alcaldías de Cochabamba.`,
+                    - content: Tu respuesta proporcionando información sobre procesos de trámites en la alcaldía de Cochabamba.`,
                 },
                 {
                     role: "system",
@@ -1450,7 +1450,7 @@ if (question.includes("ALCALDE")) {
             messages: [
                 {
                     role: "system",
-                    content: "Eres un asistente virtual de trámites del Gobierno Municipal de Cochabamba (Alcaldía de Cochabamba). Tu cliente te está haciendo una pregunta sobre trámites realizados o que se realizan en la subalcaldía de Cochabamba. Debes responder con: \n- spanish: la versión en español de la pregunta, dividida en palabras ej: \n- content: Tu respuesta proporcionando información sobre procesos de trámites en sub alcaldías de Cochabamba."
+                    content: "Eres un asistente virtual de trámites del Gobierno Municipal de Cochabamba (Alcaldía de Cochabamba). Tu cliente te está haciendo una pregunta sobre trámites realizados o que se realizan en la alcaldía de Cochabamba. Debes responder con: \n- spanish: la versión en español de la pregunta, dividida en palabras ej: \n- content: Tu respuesta proporcionando información sobre procesos de trámites en la alcaldía de Cochabamba."
                 },
                 {
                     role: "system",
@@ -1485,11 +1485,11 @@ if (question.includes("ALCALDE")) {
             messages: [
                 {
                     role: "system",
-                    content: `Eres un asistente virtual de trámites del Gobierno Municipal de Cochabamba (Alcaldía de Cochabamba). Tu cliente te está haciendo una pregunta sobre trámites realizados o que se realizan en la subalcaldía de Cochabamba. Debes responder con: 
+                    content: `Eres un asistente virtual de trámites del Gobierno Municipal de Cochabamba (Alcaldía de Cochabamba). Tu cliente te está haciendo una pregunta sobre trámites realizados o que se realizan en la alcaldía de Cochabamba. Debes responder con: 
                     - spanish: la versión en español de la pregunta, dividida en palabras ej: ${JSON.stringify(
                         cochabambaExample.spanish
                     )}
-                    - content: Tu respuesta proporcionando información sobre procesos de trámites en sub alcaldías de Cochabamba.`,
+                    - content: Tu respuesta proporcionando información sobre procesos de trámites en la alcaldía de Cochabamba.`,
                 },
                 {
                     role: "system",
