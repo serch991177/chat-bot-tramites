@@ -780,7 +780,7 @@ const cochabambaExamples = {
     },
     "SUBALCALDIAS":{content:"LAS SUB ALCALDIAS son Tunari ubicada en la Avenida. Circunvalacion y Melchor Perez de Olguin.Molle ubicada en la Avenida Daniel Campos (Mercado el Rosario)Valle Hermoso, ubicada en Circuito Bolivia, esquina avenida Barranca, lado oeste del Campo Ferial.Adela Zamudio, ubicada en la Avenida Uyuni casi puente Recoleta NUMERO 654Alejo Calatayud, ubicada en la Avenida. Petrolera kilometro 2 y medio  edificio verde.Itocta ubicada en la Avenida Petrolera kilometro  4 Entrando al PolitecnicoTamborada.",
     },
-    "CUAL ES LA BIOGRAFIA DE MANFRED REYES VILLA":{content:" El Capitan Manfred Reyes Villa Bacigalupi actualmente Alcalde de Cochabamba, politico y empresario. Es cochabambino por decision, ama a su gente, a su tierra y sobre todo a Dios, nacio en La Paz en 1955. Actualmente esta casado y tuvo 7 hijos, dos de los cuales ya han fallecido. Estudio en el Colegio Israelita de la ciudad de La Paz; en 1973 ingreso a la Escuela Militar del Ejercito, donde en 1977 obtuvo el grado de Segundo Teniente. Durante su carrera militar ocupo importantes cargos como docente en Asuntos de Especializacion Militar, y trabajo como Agregado Militar de la Embajada de Bolivia en Brasil y Estados Unidos. En 1988, por motivos personales, abandona definitivamente su carrera militar con el grado de Capitan del Ejercito para residir en Estados Unidos dedicandose a la vida civil y familiar, y en su area de formacion academica (Business Management), ocupando tambien importantes cargos. como Vicepresidente de Crawford International en Silver Spring, Maryland Estados Unidos.A su regreso a Bolivia, inicio su carrera politica a principios de los anos 1990. En 1992 asumio la Vicepresidencia del Concejo Municipal de Cochabamba. Posteriormente ocupo la Alcaldia por cuatro periodos consecutivos entre 1993 y 2000. Simultaneamente a su labor como Alcalde, fue elegido Presidente de la Asociacion de Gobiernos Municipales Autonomos de Bolivia, asumiendo el cargo de Miembro de la Union Internacional de Autoridades Locales (ULA) y siendo designado de manera intermitente como Representante Oficial de la Red Latinoamericana de Asociaciones Municipales ante la Asociacion Mundial de Coordinacion de Ciudades y Autoridades Locales, con sede en Ginebra, Suiza.En 2005 fue el primer Prefecto del departamento de Cochabamba elegido democraticamente y, en abril de 2009, en el marco de la nueva Constitucion Politica del Estado, se postulo a las elecciones presidenciales de 2009 obteniendo el segundo lugar de preferencia electoral. Reyes Villa se postulo nuevamente como Alcalde de Cochabamba en las elecciones subnacionales de 2021 representando a la agrupacion politica SUMATE, resultando electo por quinta vez con el 55.63% de los votos, ocupando la sede de este municipio como un politico experimentado, con una fuerte trayectoria. disco y grandes ideas..",
+    "CUAL ES LA BIOGRAFIA DE MANFRED REYES VILLA":{content:" El Capitan Manfred Reyes Villa Bacigalupi actualmente Alcalde de Cochabamba, es un militar retirado, politico y empresario. Es cochabambino por decision, ama a su gente, a su tierra y sobre todo a Dios, nacio en La Paz en 1955. Actualmente esta casado y tuvo 7 hijos, dos de los cuales ya han fallecido. Estudio en el Colegio Israelita de la ciudad de La Paz; en 1973 ingreso a la Escuela Militar del Ejercito, donde en 1977 obtuvo el grado de Segundo Teniente. Durante su carrera militar ocupo importantes cargos como docente en Asuntos de Especializacion Militar, y trabajo como Agregado Militar de la Embajada de Bolivia en Brasil y Estados Unidos. En 1988, por motivos personales, abandona definitivamente su carrera militar con el grado de Capitan del Ejercito para residir en Estados Unidos dedicandose a la vida civil y familiar, y en su area de formacion academica (Business Management), ocupando tambien importantes cargos. como Vicepresidente de Crawford International en Silver Spring, Maryland Estados Unidos.A su regreso a Bolivia, inicio su carrera politica a principios de los anos 1990. En 1992 asumio la Vicepresidencia del Concejo Municipal de Cochabamba. Posteriormente ocupo la Alcaldia por cuatro periodos consecutivos entre 1993 y 2000. Simultaneamente a su labor como Alcalde, fue elegido Presidente de la Asociacion de Gobiernos Municipales Autonomos de Bolivia, asumiendo el cargo de Miembro de la Union Internacional de Autoridades Locales (ULA) y siendo designado de manera intermitente como Representante Oficial de la Red Latinoamericana de Asociaciones Municipales ante la Asociacion Mundial de Coordinacion de Ciudades y Autoridades Locales, con sede en Ginebra, Suiza.En 2005 fue el primer Prefecto del departamento de Cochabamba elegido democraticamente y, en abril de 2009, en el marco de la nueva Constitucion Politica del Estado, se postulo a las elecciones presidenciales de 2009 obteniendo el segundo lugar de preferencia electoral. Reyes Villa se postulo nuevamente como Alcalde de Cochabamba en las elecciones subnacionales de 2021 representando a la agrupacion politica SUMATE, resultando electo por quinta vez con el 55.63% de los votos, ocupando la sede de este municipio como un politico experimentado, con una fuerte trayectoria. disco y grandes ideas..",
     },
     "BIOGRAFIA MANFRED REYES VILLA":{content:" El Capitan Manfred Reyes Villa Bacigalupi actualmente Alcalde de Cochabamba, es un militar retirado, politico y empresario. Es cochabambino por decision, ama a su gente, a su tierra y sobre todo a Dios, nacio en La Paz en 1955. Actualmente esta casado y tuvo 7 hijos, dos de los cuales ya han fallecido. Estudio en el Colegio Israelita de la ciudad de La Paz; en 1973 ingreso a la Escuela Militar del Ejercito, donde en 1977 obtuvo el grado de Segundo Teniente. Durante su carrera militar ocupo importantes cargos como docente en Asuntos de Especializacion Militar, y trabajo como Agregado Militar de la Embajada de Bolivia en Brasil y Estados Unidos. En 1988, por motivos personales, abandona definitivamente su carrera militar con el grado de Capitan del Ejercito para residir en Estados Unidos dedicandose a la vida civil y familiar, y en su area de formacion academica (Business Management), ocupando tambien importantes cargos. como Vicepresidente de Crawford International en Silver Spring, Maryland Estados Unidos.A su regreso a Bolivia, inicio su carrera politica a principios de los anos 1990. En 1992 asumio la Vicepresidencia del Concejo Municipal de Cochabamba. Posteriormente ocupo la Alcaldia por cuatro periodos consecutivos entre 1993 y 2000. Simultaneamente a su labor como Alcalde, fue elegido Presidente de la Asociacion de Gobiernos Municipales Autonomos de Bolivia, asumiendo el cargo de Miembro de la Union Internacional de Autoridades Locales (ULA) y siendo designado de manera intermitente como Representante Oficial de la Red Latinoamericana de Asociaciones Municipales ante la Asociacion Mundial de Coordinacion de Ciudades y Autoridades Locales, con sede en Ginebra, Suiza.En 2005 fue el primer Prefecto del departamento de Cochabamba elegido democraticamente y, en abril de 2009, en el marco de la nueva Constitucion Politica del Estado, se postulo a las elecciones presidenciales de 2009 obteniendo el segundo lugar de preferencia electoral. Reyes Villa se postulo nuevamente como Alcalde de Cochabamba en las elecciones subnacionales de 2021 representando a la agrupacion politica SUMATE, resultando electo por quinta vez con el 55.63% de los votos, ocupando la sede de este municipio como un politico experimentado, con una fuerte trayectoria. disco y grandes ideas..",
     },
@@ -1386,96 +1386,100 @@ export async function GET(req) {
         }
     }
     
-    
-
-    if (question.includes("ALCALDE")) {
-        const cochabambaExample = cochabambaExamples[matchedQuestion];
-        try {
-            const chatCompletion = await openai.chat.completions.create({
-                messages: [
-                    {
-                        role: "system",
-                        content: `Eres un asistente virtual de trámites del Gobierno Municipal de Cochabamba (Alcaldía de Cochabamba). Tu cliente te está haciendo una pregunta sobre trámites realizados o que se realizan en la subalcaldía de Cochabamba. Debes responder con: 
-                        - spanish: la versión en español de la pregunta, dividida en palabras ej: ${JSON.stringify(
-                            cochabambaExample.spanish
-                        )}
-                        - content: Tu respuesta proporcionando información sobre procesos de trámites en sub alcaldías de Cochabamba.`,
-                    },
-                    {
-                        role: "system",
-                        content: `Siempre debes responder con un objeto JSON con el siguiente formato: 
-                        {
-                            "spanish": [
-                                {
-                                    "word": ""
-                                }
-                            ],
-                            "content": ""
-                        }`,
-                    },
-                    {
-                        role: "user",
-                        content: question,
-                    },
-                ],
-                model: "gpt-3.5-turbo",
-                response_format: {
-                    type: "json_object",
-                },
-            });
-    
-            const chatResponse = JSON.parse(chatCompletion.choices[0].message.content);
-            const alcalde = "EL ALCALDE DE COCHABAMBA ES Manfred Reyes Villa"
-            const combinedResponse = {
-                spanish: cochabambaExample.spanish,
-                content: `${alcalde}`,
-            };
-            
-            console.log("Respuesta de la API de OpenAI:", chatCompletion);
-            return Response.json(combinedResponse);
-        } catch (error) {
-            return Response.json({ error: "Error al procesar la solicitud. Por favor, inténtalo de nuevo más tarde." });
-        }
-    }
-    //const cochabambaExample = cochabambaExamples[matchedQuestion];
+   
+    /*const alcaldeResponse = {
+        spanish: [
+            { word: "Manfred" } // Esto es solo un ejemplo, podría ser más complejo según tus necesidades
+        ],
+        content: "Manfred"
+    };*/
+    const cochabambaExample = cochabambaExamples[matchedQuestion];
     let combinedResponse;
 
-    if (!matchedQuestion) {
-        try {
-            // Si no se encontró una pregunta coincidente, consulta a OpenAI ChatGPT
-            const chatCompletion = await openai.chat.completions.create({
-                messages: [
+if (question.includes("ALCALDE")) {
+    console.log("funciona");
+    try {
+        const chatCompletion = await openai.chat.completions.create({
+            messages: [
+                {
+                    role: "system",
+                    content: `Eres un asistente virtual de trámites del Gobierno Municipal de Cochabamba (Alcaldía de Cochabamba). Tu cliente te está haciendo una pregunta sobre trámites realizados o que se realizan en la subalcaldía de Cochabamba. Debes responder con: 
+                    - spanish: la versión en español de la pregunta, dividida en palabras ej: ${JSON.stringify(
+                        cochabambaExample.spanish
+                    )}
+                    - content: Tu respuesta proporcionando información sobre procesos de trámites en sub alcaldías de Cochabamba.`,
+                },
+                {
+                    role: "system",
+                    content: `Siempre debes responder con un objeto JSON con el siguiente formato: 
                     {
-                        role: "system",
-                        content: "Eres un asistente virtual de trámites del Gobierno Municipal de Cochabamba (Alcaldía de Cochabamba). Tu cliente te está haciendo una pregunta sobre trámites realizados o que se realizan en la subalcaldía de Cochabamba. Debes responder con: \n- spanish: la versión en español de la pregunta, dividida en palabras ej: \n- content: Tu respuesta proporcionando información sobre procesos de trámites en sub alcaldías de Cochabamba."
-                    },
-                    {
-                        role: "system",
-                        content: "Siempre debes responder con un objeto JSON con el siguiente formato: \n{\n    \"spanish\": [\n        {\n            \"word\": \"\"\n        }\n    ],\n    \"content\": \"\"\n}"
-                    },
-                    {
-                        role: "user",
-                        content: question
-                    }
-                ],
-                model: "gpt-3.5-turbo",
-                response_format: {
-                    type: "json_object"
+                        "spanish": [
+                            {
+                                "word": ""
+                            }
+                        ],
+                        "content": ""
+                    }`,
+                },
+                {
+                    role: "user",
+                    content: question,
+                },
+            ],
+            model: "gpt-3.5-turbo",
+            response_format: {
+                type: "json_object",
+            },
+        });
+
+        const chatResponse = JSON.parse(chatCompletion.choices[0].message.content);
+        const alcalde = "EL ALCALDE DE COCHABAMBA ES Manfred Reyes Villa";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${alcalde}`,
+        };
+
+        console.log("Respuesta de la API de OpenAI:", chatCompletion);
+    } catch (error) {
+        return Response.json({ error: "Error al procesar la solicitud. Por favor, inténtalo de nuevo más tarde." });
+    }
+} else if (!matchedQuestion) {
+    console.log("no match")
+    try {
+        const chatCompletion = await openai.chat.completions.create({
+            messages: [
+                {
+                    role: "system",
+                    content: "Eres un asistente virtual de trámites del Gobierno Municipal de Cochabamba (Alcaldía de Cochabamba). Tu cliente te está haciendo una pregunta sobre trámites realizados o que se realizan en la subalcaldía de Cochabamba. Debes responder con: \n- spanish: la versión en español de la pregunta, dividida en palabras ej: \n- content: Tu respuesta proporcionando información sobre procesos de trámites en sub alcaldías de Cochabamba."
+                },
+                {
+                    role: "system",
+                    content: "Siempre debes responder con un objeto JSON con el siguiente formato: \n{\n    \"spanish\": [\n        {\n            \"word\": \"\"\n        }\n    ],\n    \"content\": \"\"\n}"
+                },
+                {
+                    role: "user",
+                    content: question
                 }
-            });
+            ],
+            model: "gpt-3.5-turbo",
+            response_format: {
+                type: "json_object"
+            }
+        });
 
-            const chatResponse = JSON.parse(chatCompletion.choices[0].message.content);
-            combinedResponse = {
-                spanish: [], // Aquí debes poner la versión en español de la pregunta
-                content: chatResponse.content
-            };
+        const chatResponse = JSON.parse(chatCompletion.choices[0].message.content);
+        combinedResponse = {
+            spanish: [], // Aquí debes poner la versión en español de la pregunta
+            content: chatResponse.content
+        };
 
-            console.log("Respuesta de la API de OpenAI:", chatCompletion);
-        } catch (error) {
-            return Response.json({ error: "Error al procesar la solicitud. Por favor, inténtalo de nuevo más tarde." });
-        }
-    } else {
-        try {
+        console.log("Respuesta de la API de OpenAI:", chatCompletion);
+    } catch (error) {
+        return Response.json({ error: "Error al procesar la solicitud. Por favor, inténtalo de nuevo más tarde." });
+    }
+} else {
+    console.log("pregunta")
+    try {
         const cochabambaExample = cochabambaExamples[matchedQuestion];
         const chatCompletion = await openai.chat.completions.create({
             messages: [
@@ -1515,17 +1519,13 @@ export async function GET(req) {
             spanish: cochabambaExample.spanish,
             content: `${cochabambaExample.content}`,
         };
-        /*const chatResponse = {
-            spanish: [], // Aquí debes poner la versión en español de la pregunta
-            content: `${cochabambaExample.content} ${chatResponse.content}`
-        };*/
-        console.log("respuesta encontrada")
         combinedResponse = chatResponseHOLA;
-        } catch (error) {
-            return Response.json({ error: "Error al procesar la solicitud. Por favor, inténtalo de nuevo más tarde." });
-        }
+    } catch (error) {
+        return Response.json({ error: "Error al procesar la solicitud. Por favor, inténtalo de nuevo más tarde." });
     }
+}
 
-    return Response.json(combinedResponse);
+return Response.json(combinedResponse);
+
     
 }
