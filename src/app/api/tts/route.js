@@ -33,7 +33,7 @@ export async function GET(req){
   const audioStream = await new Promise((resolve,reject)=>{
     speechSynthesizer.speakTextAsync(
         req.nextUrl.searchParams.get("text") || 
-        "Hola Como estas, Lo siento por el momento no tengo informacion sobre la pregunta",
+        "Este bot está diseñado para responder preguntas sobre trámites de la alcaldía de Cochabamba. Por favor, formula una pregunta relacionada con trámites de la alcaldía.",
         (result) => {
             const { audioData } = result;
             speechSynthesizer.close();

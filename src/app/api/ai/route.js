@@ -1364,6 +1364,10 @@ function isSimilar(question1, question2, threshold) {
 export async function GET(req) {
     
     const question = req.nextUrl.searchParams.get("question");
+    /*const isRelatedToAlcaldia = question.includes("TRAMITES") ;
+    if (!isRelatedToAlcaldia) {
+        return Response.json({ message: "Este bot está diseñado para responder preguntas sobre trámites de la alcaldía de Cochabamba. Por favor, formula una pregunta relacionada con trámites de la alcaldía." });
+    }*/
 
     let matchedQuestion = null;
 
@@ -1396,134 +1400,137 @@ export async function GET(req) {
     const cochabambaExample = cochabambaExamples[matchedQuestion];
     let combinedResponse;
 
-if (question.includes("ALCALDE") || question.includes("AUTORIDAD") || question.includes("CARGO") ) {
-    console.log("funciona");
-    try {
-        const chatCompletion = await openai.chat.completions.create({
-            messages: [
-                {
-                    role: "system",
-                    content: `Eres un asistente virtual de trámites del Gobierno Municipal de Cochabamba (Alcaldía de Cochabamba). Tu cliente te está haciendo una pregunta sobre trámites realizados o que se realizan en la alcaldía de Cochabamba. Debes responder con: 
-                    - spanish: la versión en español de la pregunta, dividida en palabras ej: ${JSON.stringify(
-                        cochabambaExample.spanish
-                    )}
-                    - content: Tu respuesta proporcionando información sobre procesos de trámites en la alcaldía de Cochabamba.`,
-                },
-                {
-                    role: "system",
-                    content: `Siempre debes responder con un objeto JSON con el siguiente formato: 
+    if (question.includes("ALCALDE") || question.includes("AUTORIDAD") || question.includes("CARGO") ) {
+        console.log("funciona");
+        try {
+            const chatCompletion = await openai.chat.completions.create({
+                messages: [
                     {
-                        "spanish": [
-                            {
-                                "word": ""
-                            }
-                        ],
-                        "content": ""
-                    }`,
+                        role: "system",
+                        content: `Eres un asistente virtual de trámites del Gobierno Municipal de Cochabamba (Alcaldía de Cochabamba). Tu cliente te está haciendo una pregunta sobre trámites realizados o que se realizan en la alcaldía de Cochabamba. Debes responder con: 
+                        - spanish: la versión en español de la pregunta, dividida en palabras ej: ${JSON.stringify(
+                            cochabambaExample.spanish
+                        )}
+                        - content: Tu respuesta proporcionando información sobre procesos de trámites en la alcaldía de Cochabamba.`,
+                    },
+                    {
+                        role: "system",
+                        content: `Siempre debes responder con un objeto JSON con el siguiente formato: 
+                        {
+                            "spanish": [
+                                {
+                                    "word": ""
+                                }
+                            ],
+                            "content": ""
+                        }`,
+                    },
+                    {
+                        role: "user",
+                        content: question,
+                    },
+                ],
+                model: "gpt-4-turbo",
+                response_format: {
+                    type: "json_object",
                 },
-                {
-                    role: "user",
-                    content: question,
-                },
-            ],
-            model: "gpt-3.5-turbo",
-            response_format: {
-                type: "json_object",
-            },
-        });
+            });
 
-        const chatResponse = JSON.parse(chatCompletion.choices[0].message.content);
-        const alcalde = "Por el momento solo tengo conocimientos sobre el alcalde de Cochabamba que es Manfred Reyes Villa";
-        combinedResponse = {
-            spanish: cochabambaExample.spanish,
-            content: `${alcalde}`,
-        };
+            const chatResponse = JSON.parse(chatCompletion.choices[0].message.content);
+            const alcalde = "Por el momento solo tengo conocimientos sobre el alcalde de Cochabamba que es Manfred Reyes Villa";
+            combinedResponse = {
+                spanish: cochabambaExample.spanish,
+                content: `${alcalde}`,
+            };
 
-        console.log("Respuesta de la API de OpenAI:", chatCompletion);
-    } catch (error) {
-        return Response.json({ error: "Error al procesar la solicitud. Por favor, inténtalo de nuevo más tarde." });
-    }
-} else if (!matchedQuestion) {
-    console.log("no match")
-    try {
-        const chatCompletion = await openai.chat.completions.create({
-            messages: [
-                {
-                    role: "system",
-                    content: "Eres un asistente virtual de trámites del Gobierno Municipal de Cochabamba (Alcaldía de Cochabamba). Tu cliente te está haciendo una pregunta sobre trámites realizados o que se realizan en la alcaldía de Cochabamba. Debes responder con: \n- spanish: la versión en español de la pregunta, dividida en palabras ej: \n- content: Tu respuesta proporcionando información sobre procesos de trámites en la alcaldía de Cochabamba."
-                },
-                {
-                    role: "system",
-                    content: "Siempre debes responder con un objeto JSON con el siguiente formato: \n{\n    \"spanish\": [\n        {\n            \"word\": \"\"\n        }\n    ],\n    \"content\": \"\"\n}"
-                },
-                {
-                    role: "user",
-                    content: question
+            console.log("Respuesta de la API de OpenAI:", chatCompletion);
+        } catch (error) {
+            console.error("Error al procesar la solicitud:", error);
+            return Response.json({ error: "Error al procesar la solicitud. Por favor, inténtalo de nuevo más tarde." });
+        }
+    }else if (!matchedQuestion) {
+        console.log("no match")
+        try {
+            const chatCompletion = await openai.chat.completions.create({
+                messages: [
+                    {
+                        role: "system",
+                        content: "Eres un asistente virtual de trámites del Gobierno Municipal de Cochabamba (Alcaldía de Cochabamba). Tu cliente te está haciendo una pregunta sobre trámites realizados o que se realizan en la alcaldía de Cochabamba. Debes responder con: \n- spanish: la versión en español de la pregunta, dividida en palabras ej: \n- content: Tu respuesta proporcionando información sobre procesos de trámites en la alcaldía de Cochabamba."
+                    },
+                    {
+                        role: "system",
+                        content: "Siempre debes responder con un objeto JSON con el siguiente formato: \n{\n    \"spanish\": [\n        {\n            \"word\": \"\"\n        }\n    ],\n    \"content\": \"\"\n}"
+                    },
+                    {
+                        role: "user",
+                        content: question
+                    }
+                ],
+                model: "gpt-4-turbo",
+                response_format: {
+                    type: "json_object"
                 }
-            ],
-            model: "gpt-3.5-turbo",
-            response_format: {
-                type: "json_object"
-            }
-        });
+            });
 
-        const chatResponse = JSON.parse(chatCompletion.choices[0].message.content);
-        combinedResponse = {
-            spanish: [], // Aquí debes poner la versión en español de la pregunta
-            content: chatResponse.content
-        };
+            const chatResponse = JSON.parse(chatCompletion.choices[0].message.content);
+            combinedResponse = {
+                spanish: [], // Aquí debes poner la versión en español de la pregunta
+                content: chatResponse.content
+            };
 
-        console.log("Respuesta de la API de OpenAI:", chatCompletion);
-    } catch (error) {
-        return Response.json({ error: "Error al procesar la solicitud. Por favor, inténtalo de nuevo más tarde." });
-    }
-} else {
-    console.log("pregunta")
-    try {
-        const cochabambaExample = cochabambaExamples[matchedQuestion];
-        const chatCompletion = await openai.chat.completions.create({
-            messages: [
-                {
-                    role: "system",
-                    content: `Eres un asistente virtual de trámites del Gobierno Municipal de Cochabamba (Alcaldía de Cochabamba). Tu cliente te está haciendo una pregunta sobre trámites realizados o que se realizan en la alcaldía de Cochabamba. Debes responder con: 
-                    - spanish: la versión en español de la pregunta, dividida en palabras ej: ${JSON.stringify(
-                        cochabambaExample.spanish
-                    )}
-                    - content: Tu respuesta proporcionando información sobre procesos de trámites en la alcaldía de Cochabamba.`,
-                },
-                {
-                    role: "system",
-                    content: `Siempre debes responder con un objeto JSON con el siguiente formato: 
+            console.log("Respuesta de la API de OpenAI:", chatCompletion);
+        } catch (error) {
+            console.error("Error al procesar la solicitud:", error);
+            return Response.json({ error: "Error al procesar la solicitud. Por favor, inténtalo de nuevo más tarde." });
+        }
+    } else {
+        console.log("pregunta")
+        try {
+            const cochabambaExample = cochabambaExamples[matchedQuestion];
+            const chatCompletion = await openai.chat.completions.create({
+                messages: [
                     {
-                        "spanish": [
-                            {
-                                "word": ""
-                            }
-                        ],
-                        "content": ""
-                    }`,
+                        role: "system",
+                        content: `Eres un asistente virtual de trámites del Gobierno Municipal de Cochabamba (Alcaldía de Cochabamba). Tu cliente te está haciendo una pregunta sobre trámites realizados o que se realizan en la alcaldía de Cochabamba. Debes responder con: 
+                        - spanish: la versión en español de la pregunta, dividida en palabras ej: ${JSON.stringify(
+                            cochabambaExample.spanish
+                        )}
+                        - content: Tu respuesta proporcionando información sobre procesos de trámites en la alcaldía de Cochabamba.`,
+                    },
+                    {
+                        role: "system",
+                        content: `Siempre debes responder con un objeto JSON con el siguiente formato: 
+                        {
+                            "spanish": [
+                                {
+                                    "word": ""
+                                }
+                            ],
+                            "content": ""
+                        }`,
+                    },
+                    {
+                        role: "user",
+                        content: question,
+                    },
+                ],
+                model: "gpt-4-turbo",
+                response_format: {
+                    type: "json_object",
                 },
-                {
-                    role: "user",
-                    content: question,
-                },
-            ],
-            model: "gpt-3.5-turbo",
-            response_format: {
-                type: "json_object",
-            },
-        });
+            });
 
-        const chatResponse = JSON.parse(chatCompletion.choices[0].message.content);
-        const chatResponseHOLA = {
-            spanish: cochabambaExample.spanish,
-            content: `${cochabambaExample.content}`,
-        };
-        combinedResponse = chatResponseHOLA;
-    } catch (error) {
-        return Response.json({ error: "Error al procesar la solicitud. Por favor, inténtalo de nuevo más tarde." });
+            const chatResponse = JSON.parse(chatCompletion.choices[0].message.content);
+            const chatResponseHOLA = {
+                spanish: cochabambaExample.spanish,
+                content: `${cochabambaExample.content}`,
+            };
+            combinedResponse = chatResponseHOLA;
+        } catch (error) {
+            console.error("Error al procesar la solicitud:", error);
+            return Response.json({ error: "Error al procesar la solicitud. Por favor, inténtalo de nuevo más tarde." });
+        }
     }
-}
 
 return Response.json(combinedResponse);
 
