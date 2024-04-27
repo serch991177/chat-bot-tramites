@@ -6,6 +6,12 @@ const openai = new OpenAI({
 
 const cochabambaExamples = {
     //Question about the bot
+    "CARGO":{
+        content:"La Maxima Autoridad de Cochabamba es El Alcalde Manfred Reyes Villa que esta a cargo de la Alcadia de Cochabamba"
+    },
+    "AUTORIDAD":{
+        content:"La Maxima Autoridad de Cochabamba es El Alcalde Manfred Reyes Villa"
+    },
     "ALCALDE":{
         content:"El Alcalde de Cochabamba es Manfred Reyes Villa"
     },
@@ -1400,7 +1406,7 @@ export async function GET(req) {
     const cochabambaExample = cochabambaExamples[matchedQuestion];
     let combinedResponse;
 
-    if (question.includes("ALCALDE") || question.includes("AUTORIDAD") || question.includes("CARGO") ) {
+    if (question.includes("ALCALDE")) {
         console.log("funciona");
         try {
             const chatCompletion = await openai.chat.completions.create({
