@@ -7,9 +7,30 @@ const openai = new OpenAI({
 const cochabambaExamples = {
     //Question about the bot
     "CARGO":{
-        content:"La Maxima Autoridad de Cochabamba es El Alcalde Manfred Reyes Villa que esta a cargo de la Alcadia de Cochabamba"
+        content:"El Alcalde Manfred Reyes Villa"
     },
-    "AUTORIDAD":{
+    "CARGO DE COCHABAMBA":{
+        content:"El Alcalde Manfred Reyes Villa"
+    },
+    "QUIEN ESTA A CARGO DE COCHABAMBA":{
+        content:"El Alcalde Manfred Reyes Villa"
+    },
+    "QUIEN ESTA A CARGO DE COCHABAMBA ACTUALMENTE":{
+        content:"El Alcalde Manfred Reyes Villa"
+    },
+    "QUIEN ES LA AUTORIDAD COCHABAMBABA":{
+        content:"La Maxima Autoridad de Cochabamba es El Alcalde Manfred Reyes Villa"
+    },
+    "QUIEN ES LA MAXIMA AUTORIDAD DE COCHABAMBABA ACTUALMENTE":{
+        content:"La Maxima Autoridad de Cochabamba es El Alcalde Manfred Reyes Villa"
+    },
+    "QUIEN ES LA MAXIMA AUTORIDAD DE COCHABAMBABA":{
+        content:"La Maxima Autoridad de Cochabamba es El Alcalde Manfred Reyes Villa"
+    },
+    "QUIEN ES LA MAXIMA AUTORIDAD":{
+        content:"La Maxima Autoridad de Cochabamba es El Alcalde Manfred Reyes Villa"
+    },
+    "AUTORIDAD DE COCHABAMBABA":{
         content:"La Maxima Autoridad de Cochabamba es El Alcalde Manfred Reyes Villa"
     },
     "ALCALDE":{
