@@ -1433,7 +1433,7 @@ if (question.includes("ALCALDE") || question.includes("AUTORIDAD") || question.i
         });
 
         const chatResponse = JSON.parse(chatCompletion.choices[0].message.content);
-        const alcalde = "EL ALCALDE DE COCHABAMBA ES Manfred Reyes Villa";
+        const alcalde = "Por el momento solo tengo conocimientos sobre el alcalde de Cochabamba que es Manfred Reyes Villa";
         combinedResponse = {
             spanish: cochabambaExample.spanish,
             content: `${alcalde}`,
